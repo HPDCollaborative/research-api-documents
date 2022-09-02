@@ -12,7 +12,7 @@ lastUpdated: true
 This documentation is here to provide a reference for both incoming and outgoing data streams of the HPD Research API for [HPD Collaborative Open Standard v2.2.](https://www.hpd-collaborative.org/hpd-2-2-standard)
 
 ::: warning
-You are viewing documentation for version 2.2 of the Open Standard which is no longer able to be published. For the latest version [you should see version 2.3.](/2.3/)
+You are viewing documentation for version 2.2 of the Open Standard which is no longer able to be published. For the latest version [you should see version 2.3.](/2.2/)
 :::
 
 While outgoing data structures are not required to match the patterns described herein, it's recommended to follow these standard for consistency.
