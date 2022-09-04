@@ -29,8 +29,6 @@ On each doc page you'll find a Structure section which will illustrate the shape
 
 Let's make up a data object example widget.
 
----
-
 ## Structure
 
 ```json
