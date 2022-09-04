@@ -16,7 +16,7 @@ While outgoing data structures are not required to match the patterns described 
 All incoming property values are set to Pascal Case and must be sent/received using exact Pascal Cased names shown here.
 
 ::: tip
-Use the `Versions` dropdown menu top right of the page to view other versions of the HPD Open Standard.
+Use the `Versions` dropdown menu top right of the page to view other versions of the documentation.
 :::
 
 ## What to Expect
@@ -24,8 +24,6 @@ Use the `Versions` dropdown menu top right of the page to view other versions of
 On each doc page you'll find a Structure section which will illustrate the shape of the data with type values, and then all properties available for the given data structure.
 
 Let's make up a data object example widget.
-
----
 
 ## Structure
 
