@@ -1,6 +1,7 @@
 ---
 title: Volatile Organic Compound
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

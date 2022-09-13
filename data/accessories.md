@@ -1,6 +1,7 @@
 ---
 title: Accessories
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

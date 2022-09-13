@@ -1,6 +1,7 @@
 ---
 title: Reference
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

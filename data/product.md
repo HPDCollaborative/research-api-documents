@@ -1,6 +1,7 @@
 ---
 title: Product
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}
