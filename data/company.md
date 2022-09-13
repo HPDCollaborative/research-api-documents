@@ -1,6 +1,7 @@
 ---
 title: Company
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

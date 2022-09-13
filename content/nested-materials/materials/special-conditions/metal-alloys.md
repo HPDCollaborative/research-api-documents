@@ -1,6 +1,7 @@
 ---
 title: Metal Alloys
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

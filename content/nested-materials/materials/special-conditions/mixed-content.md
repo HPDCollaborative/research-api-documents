@@ -1,6 +1,7 @@
 ---
 title: Mixed Recycled Content
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

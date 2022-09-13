@@ -1,6 +1,7 @@
 ---
 title: Fasteners
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

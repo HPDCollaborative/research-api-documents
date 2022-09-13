@@ -1,6 +1,7 @@
 ---
 title: Geological Material
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

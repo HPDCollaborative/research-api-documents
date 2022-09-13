@@ -1,6 +1,7 @@
 ---
 title: Data Container
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

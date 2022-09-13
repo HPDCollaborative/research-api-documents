@@ -1,6 +1,7 @@
 ---
 title: Intended Purpose
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}
