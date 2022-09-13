@@ -1,6 +1,7 @@
 ---
 title: Introduction
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

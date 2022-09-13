@@ -1,6 +1,7 @@
 ---
 title: Biological Material
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

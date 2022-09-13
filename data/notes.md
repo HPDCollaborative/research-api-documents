@@ -1,6 +1,7 @@
 ---
 title: General Notes
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

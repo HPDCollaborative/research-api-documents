@@ -1,6 +1,7 @@
 ---
 title: Nested Materials
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

@@ -1,6 +1,7 @@
 ---
 title: Electronics
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}

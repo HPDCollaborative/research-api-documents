@@ -1,6 +1,7 @@
 ---
 title: Certifications and Compliance
 lastUpdated: true
+outline: 'deep'
 ---
 
 # {{ $frontmatter.title }}
