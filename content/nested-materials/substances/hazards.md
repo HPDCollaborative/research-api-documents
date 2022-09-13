@@ -21,6 +21,8 @@ lastUpdated: true
 ]
 ```
 
+---
+
 ### Name
 
 - type: **`<string>`**

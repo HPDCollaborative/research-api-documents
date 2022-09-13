@@ -1,0 +1,55 @@
+---
+title: Electronics
+lastUpdated: true
+---
+
+# {{ $frontmatter.title }}
+
+[[toc]]
+
+## Structure
+
+```json
+{
+  "IngredientDescription": "<string>",
+  "Compliance": "<string>",
+  "ComplianceExemptions": "<string>",
+  "Takeback": "<string>",
+  "OtherEolExplanation": "<string>"
+}
+```
+
+#### DIFF 2.2 > 2.3
+
+```diff
++   "IngredientDescription": "<string>"
++   "Compliance": "<string>"
++   "ComplianceExemptions": "<string>"
++   "Takeback": "<string>"
++   "OtherEolExplanation": "<string>"
+```
+
+### IngredientDescription
+
+- type: **`<string>`**
+- required: **`true`**
+
+### Compliance
+
+- type: **`<string>`**
+- required: **`true`**
+
+### ComplianceExemptions
+
+- type: **`<string>`**
+- required: **`true`**
+
+### Takeback
+
+- type: **`<string>`**
+- required: **`true`**
+
+### OtherEolExplanation
+
+- type: **`<string>`**
+- required: **`true`**

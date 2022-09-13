@@ -1,5 +1,5 @@
 ---
-title: What Is It?
+title: Intended Purpose
 lastUpdated: true
 ---
 
@@ -9,7 +9,7 @@ lastUpdated: true
 
 ## Overview
 
-This documentation is here to provide a reference for both incoming and outgoing data streams of the HPD Research API for [HPD Collaborative Open Standard v2.2.](https://www.hpd-collaborative.org/hpd-2-2-standard)
+This documentation is here to provide a reference for both incoming and outgoing data streams of the HPD Research API for [HPD Collaborative Open Standard v2.3.](https://www.hpd-collaborative.org/hpd-2-3-standard)
 
 While outgoing data structures are not required to match the patterns described herein, it's recommended to follow these standard for consistency.
 
