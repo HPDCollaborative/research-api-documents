@@ -24,7 +24,7 @@ lastUpdated: true
     "Role": "<string>",
     "Notes": "<string>",
     "ScreenedAt": "<string>",
-    "Hazards": "<string>"
+    "Hazards": "<array>"
   }
 ]
 ```
@@ -98,4 +98,4 @@ lastUpdated: true
 
 - type: **`<array>`**
 - required: **`false`**
-- related: [Hazards](/2.2/content/materials/substances/hazards)
+- related: [Hazards](./hazards)

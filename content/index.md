@@ -11,11 +11,9 @@ lastUpdated: true
 
 The Content section represents the heart of an HPD. This is where you'll find:
 
-- Materials
-- Substances
-- Hazards
-- Additional Listings
-- Special Conditions
+- [Materials](./materials/)
+- [Substances](./materials/substances/)
+- [Hazards](./materials/substances/hazards.md)
 
 ## Inventory Reporting Format
 

@@ -1,5 +1,5 @@
 ---
-title: What Is It?
+title: Intended Purpose
 lastUpdated: true
 ---
 

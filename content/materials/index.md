@@ -85,3 +85,4 @@ lastUpdated: true
 
 - type: **`<string>`**
 - required: **`true`**
+- related: [Substances](./substances/)
