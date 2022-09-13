@@ -12,31 +12,35 @@ outline: 'deep'
 
 ```json
 {
-  "Name": "<string>",
-  "CasRn": "<string>",
-  "GreenScreen": "<string>",
-  "Min": "<float>",
-  "Max": "<float>",
-  "Residual": "<string>",
-  "Recycle": "<string>",
-  "AlternateOf": "<object>",
-  "Nano": "<bool>",
-  "Role": "<string>",
-  "Notes": "<string>",
-  "ScreenedAt": "<timestamp>",
-  "Hazards": "<array>",
-  "Listings": "<array>"
+	"Name": "<string>",
+	"CasRn": "<string>",
+	"GreenScreen": "<string>",
+	"Min": "<string>",
+	"Max": "<string>",
+	"Residual": "<string>",
+	"Recycle": "<string>",
+	"AlternateOf": "<object>",
+	"Nano": "<bool>",
+	"Role": "<string>",
+	"Notes": "<string>",
+	"ScreenedAt": "<timestamp>",
+	"Hazards": "<array>",
+	"Listings": "<array>"
 }
 ```
 
-#### DIFF 2.2 > main
+#### DIFF 2.2 > 2.3
 
 ```diff
-- "Payload": "<array>"
-- "Residual": "<bool>"
-+ "AlternateOf": "<object>"
-+ "Residual": "<string>"
-+ "Listings": "<array>"
+-   "Min": "<float>"
+-   "Max": "<float>"
+-   "Payload": "<array>"
+-   "Residual": "<bool>"
++   "Min": "<string>",
++   "Max": "<string>",
++   "AlternateOf": "<object>"
++   "Residual": "<string>"
++   "Listings": "<array>"
 ```
 
 ---
@@ -58,12 +62,12 @@ outline: 'deep'
 
 ### Min
 
-- type: **`<int>`**
+- type: **`<string>`**
 - required: **`true`**
 
 ### Max
 
-- type: **`<int>`**
+- type: **`<string>`**
 - required: **`false`**
 
 ### Residual

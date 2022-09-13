@@ -30,16 +30,20 @@ outline: 'deep'
 #### DIFF 2.2 > 2.3
 
 ```diff
-+ "Condition": "<object>"
-+ "AlternateOf": "<object>"
-- "Alternate": "<string>"
-- "Reportable": "<string>"
-- "HpdUrl": "<string>"
-- "Threshold": "<string>"
-- "Residuals": "<string>"
-- "ResidualNotes": "<string>"
-- "MaterialType": "<string>"
-- "Substances": "<string>"
++   "Condition": "<object>"
++   "Min": "<string>"
++   "Max": "<string>"
++   "AlternateOf": "<object>"
+-   "Min": "<float>"
+-   "Max": "<float>"
+-   "Alternate": "<string>"
+-   "Reportable": "<string>"
+-   "HpdUrl": "<string>"
+-   "Threshold": "<string>"
+-   "Residuals": "<string>"
+-   "ResidualNotes": "<string>"
+-   "MaterialType": "<string>"
+-   "Substances": "<string>"
 ```
 
 ### Name
@@ -61,12 +65,12 @@ outline: 'deep'
 
 ### Min
 
-- type: **`<float>`**
+- type: **`<string>`**
 - required: **`true`**
 
 ### Max
 
-- type: **`<float>`**
+- type: **`<string>`**
 - required: **`false`**
 
 ### AlternateOf
