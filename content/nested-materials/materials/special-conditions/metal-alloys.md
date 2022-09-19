@@ -12,20 +12,24 @@ outline: 'deep'
 
 ```json
 {
-  "UnsOrEnIdentifier": "<string>",
-  "MetalAlloyHpd": "<string>",
-  "GreenScreenAlloyingElements": "<string>",
-  "ListingNotes": "<string>"
+	"MetalAlloy": {
+		"UnsOrEnIdentifier": "<string>",
+		"MetalAlloyHpd": "<string>",
+		"GreenScreenAlloyingElements": "<string>",
+		"ListingNotes": "<string>"
+	}
 }
 ```
 
 #### DIFF 2.2 > 2.3
 
 ```diff
-+   "UnsOrEnIdentifier": "<string>"
-+   "MetalAlloyHpd": "<string>"
-+   "GreenScreenAlloyingElements": "<string>"
++ "MetalAlloy": {
++   "UnsOrEnIdentifier": "<string>",
++   "MetalAlloyHpd": "<string>",
++   "GreenScreenAlloyingElements": "<string>",
 +   "ListingNotes": "<string>"
++ }
 ```
 
 ### UnsOrEnIdentifier

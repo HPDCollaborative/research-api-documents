@@ -12,26 +12,30 @@ outline: 'deep'
 
 ```json
 {
-  "IngredientDescription": "<string>",
-  "TestingPerformed": "<string>",
-  "TestingDescription": "<string>",
-  "BatchVariation": "<string>",
-  "VariationDescription": "<string>",
-  "CountryOfOrigin": "<string>",
-  "MissingInformation": "<string>"
+	"MixedRecycledContent": {
+		"IngredientDescription": "<string>",
+		"TestingPerformed": "<string>",
+		"TestingDescription": "<string>",
+		"BatchVariation": "<string>",
+		"VariationDescription": "<string>",
+		"CountryOfOrigin": "<string>",
+		"MissingInformation": "<string>"
+	}
 }
 ```
 
 #### DIFF 2.2 > 2.3
 
 ```diff
-+   "IngredientDescription": "<string>"
-+   "TestingPerformed": "<string>"
-+   "TestingDescription": "<string>"
-+   "BatchVariation": "<string>"
-+   "VariationDescription": "<string>"
-+   "CountryOfOrigin": "<string>"
++ "MixedRecycledContent": {
++   "IngredientDescription": "<string>",
++   "TestingPerformed": "<string>",
++   "TestingDescription": "<string>",
++   "BatchVariation": "<string>",
++   "VariationDescription": "<string>",
++   "CountryOfOrigin": "<string>",
 +   "MissingInformation": "<string>"
++ }
 ```
 
 ### IngredientDescription

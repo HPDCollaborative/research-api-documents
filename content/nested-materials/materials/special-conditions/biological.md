@@ -12,16 +12,20 @@ outline: 'deep'
 
 ```json
 {
-  "Category": "<string>",
-  "IngredientDescription": "<string>"
+	"BiologicalMaterial": {
+		"Category": "<string>",
+		"IngredientDescription": "<string>"
+	}
 }
 ```
 
 #### DIFF 2.2 > 2.3
 
 ```diff
-+   "Category": "<string>"
++ "BiologicalMaterial": {
++   "Category": "<string>",
 +   "IngredientDescription": "<string>"
++ }
 ```
 
 ### Category
