@@ -16,34 +16,42 @@ Nested Materials is a new data array that supercedes Materials in version 2.2 an
 
 ```json
 {
-  "Name": "<string>",
-  "Min": "<float>",
-  "Max": "<float>",
-  "AlternateOf": "<object>",
-  "NoReportableSubstances": "<bool>",
-  "Threshold": "<int>",
-  "Residuals": "<string>",
-  "ResidualNotes": "<string>",
-  "MaterialType": "<string>",
-  "Substances": "<array>",
-  "Materials": "<array>"
+	"NestedMaterials": [
+		{
+			"Name": "<string>",
+			"Min": "<float>",
+			"Max": "<float>",
+			"AlternateOf": "<object>",
+			"NoReportableSubstances": "<bool>",
+			"Threshold": "<int>",
+			"Residuals": "<string>",
+			"ResidualNotes": "<string>",
+			"MaterialType": "<string>",
+			"Substances": "<array>",
+			"Materials": "<array>"
+		}
+	]
 }
 ```
 
 #### DIFF 2.2 > 2.3
 
 ```diff
-+ "Name": "<string>"
-+ "Min": "<float>"
-+ "Max": "<float>"
-+ "AlternateOf": "<object>"
-+ "NoReportableSubstances": "<bool>"
-+ "Threshold": "<int>"
-+ "Residuals": "<string>"
-+ "ResidualNotes": "<string>"
-+ "MaterialType": "<string>"
-+ "Substances": "<array>"
-+ "Materials": "<array>"
++ "NestedMaterials": [
++   {
++     "Name": "<string>",
++     "Min": "<float>",
++     "Max": "<float>",
++     "AlternateOf": "<object>",
++     "NoReportableSubstances": "<bool>",
++     "Threshold": "<int>",
++     "Residuals": "<string>",
++     "ResidualNotes": "<string>",
++     "MaterialType": "<string>",
++     "Substances": "<array>",
++     "Materials": "<array>"
++   }
++ ]
 ```
 
 ---
