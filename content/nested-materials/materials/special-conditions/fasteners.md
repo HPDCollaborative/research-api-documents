@@ -12,26 +12,30 @@ outline: 'deep'
 
 ```json
 {
-  "ComponentComposition": "<string>",
-  "EuRohsConformance": "<string>",
-  "EuReachSvhcContent": "<string>",
-  "EuRohsExemptions": "<string>",
-  "SvhcDeclaration": "<string>",
-  "LbcRedListCompliance": "<string>",
-  "SpecialConditionThresholdDeclaration": "<string>"
+	"MinorFastener": {
+		"ComponentComposition": "<string>",
+		"EuRohsConformance": "<string>",
+		"EuReachSvhcContent": "<string>",
+		"EuRohsExemptions": "<string>",
+		"SvhcDeclaration": "<string>",
+		"LbcRedListCompliance": "<string>",
+		"SpecialConditionThresholdDeclaration": "<string>"
+	}
 }
 ```
 
 #### DIFF 2.2 > 2.3
 
 ```diff
-+   "ComponentComposition": "<string>"
-+   "EuRohsConformance": "<string>"
-+   "EuReachSvhcContent": "<string>"
-+   "EuRohsExemptions": "<string>"
-+   "SvhcDeclaration": "<string>"
-+   "LbcRedListCompliance": "<string>"
++ "MinorFastener": {
++   "ComponentComposition": "<string>",
++   "EuRohsConformance": "<string>",
++   "EuReachSvhcContent": "<string>",
++   "EuRohsExemptions": "<string>",
++   "SvhcDeclaration": "<string>",
++   "LbcRedListCompliance": "<string>",
 +   "SpecialConditionThresholdDeclaration": "<string>"
++ }
 ```
 
 ### ComponentComposition

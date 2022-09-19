@@ -12,24 +12,28 @@ outline: 'deep'
 
 ```json
 {
-  "Origin": "<string>",
-  "IngredientComposition": "<string>",
-  "PotentialPresenceOfToxicMaterials": "<string>",
-  "ToxicMaterialDescription": "<string>",
-  "PresenceOfRadioactiveElements": "<string>",
-  "RadioactiveElementDescription": "<string>"
+	"GeologicalMaterial": {
+		"Origin": "<string>",
+		"IngredientComposition": "<string>",
+		"PotentialPresenceOfToxicMaterials": "<string>",
+		"ToxicMaterialDescription": "<string>",
+		"PresenceOfRadioactiveElements": "<string>",
+		"RadioactiveElementDescription": "<string>"
+	}
 }
 ```
 
 #### DIFF 2.2 > 2.3
 
 ```diff
-+   "Origin": "<string>"
-+   "IngredientComposition": "<string>"
-+   "PotentialPresenceOfToxicMaterials": "<string>"
-+   "ToxicMaterialDescription": "<string>"
-+   "PresenceOfRadioactiveElements": "<string>"
++ "GeologicalMaterial": {
++   "Origin": "<string>",
++   "IngredientComposition": "<string>",
++   "PotentialPresenceOfToxicMaterials": "<string>",
++   "ToxicMaterialDescription": "<string>",
++   "PresenceOfRadioactiveElements": "<string>",
 +   "RadioactiveElementDescription": "<string>"
++ }
 ```
 
 ### Origin

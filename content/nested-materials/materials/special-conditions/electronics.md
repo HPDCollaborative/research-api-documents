@@ -12,22 +12,26 @@ outline: 'deep'
 
 ```json
 {
-  "IngredientDescription": "<string>",
-  "Compliance": "<string>",
-  "ComplianceExemptions": "<string>",
-  "Takeback": "<string>",
-  "OtherEolExplanation": "<string>"
+	"ElectronicComponent": {
+		"IngredientDescription": "<string>",
+		"Compliance": "<string>",
+		"ComplianceExemptions": "<string>",
+		"Takeback": "<string>",
+		"OtherEolExplanation": "<string>"
+	}
 }
 ```
 
 #### DIFF 2.2 > 2.3
 
 ```diff
-+   "IngredientDescription": "<string>"
-+   "Compliance": "<string>"
-+   "ComplianceExemptions": "<string>"
-+   "Takeback": "<string>"
++ "ElectronicComponent": {
++   "IngredientDescription": "<string>",
++   "Compliance": "<string>",
++   "ComplianceExemptions": "<string>",
++   "Takeback": "<string>",
 +   "OtherEolExplanation": "<string>"
++ }
 ```
 
 ### IngredientDescription
