@@ -3,11 +3,11 @@ title: Materials
 category: Content
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 {
@@ -26,63 +26,63 @@ category: Content
 }
 ```
 
-### Name {.doc-heading}
+### Name
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Min {.doc-heading}
+### Min
 
 - type: **`<float>`**
 - required: **`true`**
 
-### Max {.doc-heading}
+### Max
 
 - type: **`<float>`**
 - required: **`true`**
 
-### Alternate {.doc-heading}
+### Alternate
 
 - type: **`<bool>`**
 - required: **`true`**
 
-### Reportable {.doc-heading}
+### Reportable
 
 - type: **`<bool>`**
 - required: **`true`**
 
-### HpdUrl {.doc-heading}
+### HpdUrl
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Threshold {.doc-heading}
+### Threshold
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Residuals {.doc-heading}
+### Residuals
 
 - type: **`<string>`**
 - required: **`true`**
 
-### ResidualNotes {.doc-heading}
+### ResidualNotes
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Notes {.doc-heading}
+### Notes
 
 - type: **`<string>`**
 - required: **`true`**
 
-### MaterialType {.doc-heading}
+### MaterialType
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Substances {.doc-heading}
+### Substances
 
 - type: **`<string>`**
 - required: **`true`**
-- related: [Substances](./substances/)
+- related: [Substances](../substances/)

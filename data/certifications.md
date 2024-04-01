@@ -3,11 +3,11 @@ title: Certifications and Compliance
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 [
@@ -27,64 +27,64 @@ category: Data
 ]
 ```
 
-### Type {.doc-heading}
+### Type
 
 - type: **`<string>`**
 - required: **`true`**
 
-### OtherType {.doc-heading}
+### OtherType
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### Name {.doc-heading}
+### Name
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Voc {.doc-heading}
+### Voc
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### Party {.doc-heading}
+### Party
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Issue {.doc-heading}
+### Issue
 
 - type: **`<date>`**
 - required: **`false`**
 - default: **`null`**
 
-### Expire {.doc-heading}
+### Expire
 
 - type: **`<date>`**
 - required: **`false`**
 - default: **`null`**
 
-### Lab {.doc-heading}
+### Lab
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### Facilities {.doc-heading}
+### Facilities
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### Website {.doc-heading}
+### Website
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### Notes {.doc-heading}
+### Notes
 
 - type: **`<string>`**
 - required: **`false`**

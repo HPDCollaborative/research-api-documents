@@ -3,11 +3,11 @@ title: Company
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 {
@@ -15,7 +15,7 @@ category: Data
 }
 ```
 
-### Name {.doc-heading}
+### Name
 
 - type: **`<string>`**
 - required: **`true`**

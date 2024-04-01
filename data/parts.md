@@ -3,9 +3,9 @@ title: Parts
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 {
@@ -17,27 +17,27 @@ category: Data
 }
 ```
 
-### SupplierName {.doc-heading}
+### SupplierName
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Name {.doc-heading}
+### Name
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Notes {.doc-heading}
+### Notes
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Min {.doc-heading}
+### Min
 
 - type: **`<float>`**
 - required: **`true`**
 
-### Max {.doc-heading}
+### Max
 
 - type: **`<float>`**
 - required: **`true`**

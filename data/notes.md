@@ -3,11 +3,11 @@ title: General Notes
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 {
@@ -15,7 +15,7 @@ category: Data
 }
 ```
 
-### General {.doc-heading}
+### General
 
 - type: **`<string>`**
 - required: **`false`**

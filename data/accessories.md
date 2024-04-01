@@ -3,11 +3,11 @@ title: Accessories
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 [
@@ -19,17 +19,17 @@ category: Data
 ]
 ```
 
-### Name {.doc-heading}
+### Name
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Website {.doc-heading}
+### Website
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Conditions {.doc-heading}
+### Conditions
 
 - type: **`<string>`**
 - required: **`true`**

@@ -3,11 +3,11 @@ title: Data Container
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 The base data object should return the following JSON structure.
 
@@ -34,51 +34,51 @@ The base data object should return the following JSON structure.
 }
 ```
 
-### NumericId {.doc-heading}
+### NumericId
 
 - type: **`<int>`**
 - required: **`true`**
 
-### DigitalId {.doc-heading}
+### DigitalId
 
 - type: **`<string>`**
 - required: **`true`**
 
-### RecordId {.doc-heading}
+### RecordId
 
 - type: **`<int>`**
 - required: **`true`**
 
-### Build {.doc-heading}
+### Build
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Filename {.doc-heading}
+### Filename
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Accessories {.doc-heading}
+### Accessories
 
 - type: **`<array>`**
 - required: **`false`**
 - related: [Accessories](./accessories)
 - default: **`null|string`**
 
-### Certifications {.doc-heading}
+### Certifications
 
 - type: **`<array>`**
 - required: **`true`**
 - related: [Certifications](./certifications)
 
-### Company {.doc-heading}
+### Company
 
 - type: **`<object>`**
 - required: **`true`**
 - related: [Company](./company)
 
-### Content {.doc-heading}
+### Content
 
 - type: **`<object>`**
 - required: **`true`**
@@ -88,7 +88,7 @@ The base data object should return the following JSON structure.
 The content prop is simply a JSON object that wraps an HPD's content inventory. Content inventory details and structure, are documented in the [Content Inventory section](../content/) below.
 :::
 
-### General {.doc-heading}
+### General
 
 - type: **`<object>`**
 - required: **`true`**
@@ -98,49 +98,49 @@ The content prop is simply a JSON object that wraps an HPD's content inventory. 
 The data object represents the Summary section of the HPD.
 :::
 
-### Notes {.doc-heading}
+### Notes
 
 - type: **`<object>`**
 - required: **`true`**
 - related: [Notes](./notes)
 
-### Parts {.doc-heading}
+### Parts
 
 - type: **`<array>`**
 - required: **`false`**
 - related: [Parts](./parts)
 - default: **`null`**
 
-### Product {.doc-heading}
+### Product
 
 - type: **`<object>`**
 - required: **`true`**
 - related: [Product](./product)
 
-### Reference {.doc-heading}
+### Reference
 
 - type: **`<object>`**
 - required: **`true`**
 - related: [Reference](./reference)
 
-### Voc {.doc-heading}
+### Voc
 
 - type: **`<object>`**
 - required: **`true`**
 - related: [VOC](./voc)
 
-### PublishedAt {.doc-heading}
+### PublishedAt
 
 - type: **`<timestamp>`**
 - required: **`true`**
 
-### WithdrawnAt {.doc-heading}
+### WithdrawnAt
 
 - type: **`<timestamp>`**
 - required: **`false`**
 - default: **`null`**
 
-### ScreenedAt {.doc-heading}
+### ScreenedAt
 
 - type: **`<timestamp>`**
 - required: **`true`**

@@ -3,11 +3,11 @@ title: Summary
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 {
@@ -20,37 +20,37 @@ category: Data
 }
 ```
 
-### Classification {.doc-heading}
+### Classification
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### CsiDivision {.doc-heading}
+### CsiDivision
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### CsiSection {.doc-heading}
+### CsiSection
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### Description {.doc-heading}
+### Description
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### ThresholdType {.doc-heading}
+### ThresholdType
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
 
-### InventoryNotes {.doc-heading}
+### InventoryNotes
 
 - type: **`<string>`**
 - required: **`false`**

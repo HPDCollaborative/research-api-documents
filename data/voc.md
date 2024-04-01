@@ -3,11 +3,11 @@ title: Volatile Organic Compound
 category: Data
 ---
 
-# {{ $frontmatter.title }} {.doc-heading}
+# {{ $frontmatter.title }}
 
 [[toc]]
 
-## Structure {.doc-heading}
+## Structure
 
 ```json
 {
@@ -19,27 +19,27 @@ category: Data
 }
 ```
 
-### VocContent {.doc-heading}
+### VocContent
 
 - type: **`<int>`**
 - required: **`true`**
 
-### Material {.doc-heading}
+### Material
 
 - type: **`<int>`**
 - required: **`true`**
 
-### Regulatory {.doc-heading}
+### Regulatory
 
 - type: **`<int>`**
 - required: **`true`**
 
-### Exempt {.doc-heading}
+### Exempt
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Ultra {.doc-heading}
+### Ultra
 
 - type: **`<string>`**
 - required: **`true`**
