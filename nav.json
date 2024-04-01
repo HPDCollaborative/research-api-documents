@@ -5,7 +5,7 @@
   },
   {
     "text": "Container",
-    "collapsible": true,
+    "collapsed": true,
     "items": [
       { "text": "Introduction", "link": "data/" },
       { "text": "Accessories", "link": "data/accessories" },
@@ -21,7 +21,7 @@
   },
   {
     "text": "Content",
-    "collapsible": true,
+    "collapsed": true,
     "items": [
       {
         "text": "Introduction",
