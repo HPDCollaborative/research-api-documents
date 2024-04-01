@@ -1,7 +1,6 @@
 ---
 title: Summary
-lastUpdated: true
-outline: 'deep'
+category: Data
 ---
 
 # {{ $frontmatter.title }}

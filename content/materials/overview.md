@@ -1,7 +1,6 @@
 ---
 title: Materials
-lastUpdated: true
-outline: 'deep'
+category: Content
 ---
 
 # {{ $frontmatter.title }}

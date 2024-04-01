@@ -1,7 +1,6 @@
 ---
 title: Hazards
-lastUpdated: true
-outline: 'deep'
+category: Content
 ---
 
 # {{ $frontmatter.title }}

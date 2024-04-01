@@ -1,7 +1,6 @@
 ---
 title: Volatile Organic Compound
-lastUpdated: true
-outline: 'deep'
+category: Data
 ---
 
 # {{ $frontmatter.title }}

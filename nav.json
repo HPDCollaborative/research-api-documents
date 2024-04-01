@@ -1,0 +1,43 @@
+[
+  {
+    "text": "Introduction",
+    "items": [{ "text": "Intended Purpose", "link": "intended-purpose" }]
+  },
+  {
+    "text": "Container",
+    "collapsible": true,
+    "items": [
+      { "text": "Introduction", "link": "data/container" },
+      { "text": "Accessories", "link": "data/accessories" },
+      { "text": "Certifications", "link": "data/certifications" },
+      { "text": "Company", "link": "data/company" },
+      { "text": "General", "link": "data/general" },
+      { "text": "Notes", "link": "data/notes" },
+      { "text": "Parts", "link": "data/parts" },
+      { "text": "Product", "link": "data/product" },
+      { "text": "Reference", "link": "data/reference" },
+      { "text": "Voc", "link": "data/voc" }
+    ]
+  },
+  {
+    "text": "Content",
+    "collapsible": true,
+    "items": [
+      {
+        "text": "Introduction",
+        "link": "content/overview"
+      },
+      {
+        "text": "Materials",
+        "link": "content/materials/overview",
+        "items": [
+          {
+            "text": "Substances",
+            "link": "content/materials/substances/overview",
+            "items": [{ "text": "Hazards", "link": "content/materials/substances/hazards" }]
+          }
+        ]
+      }
+    ]
+  }
+]

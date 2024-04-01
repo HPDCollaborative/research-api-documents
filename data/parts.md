@@ -1,7 +1,6 @@
 ---
 title: Parts
-lastUpdated: true
-outline: 'deep'
+category: Data
 ---
 
 # {{ $frontmatter.title }}

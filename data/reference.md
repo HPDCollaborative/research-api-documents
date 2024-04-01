@@ -1,7 +1,6 @@
 ---
 title: Reference
-lastUpdated: true
-outline: 'deep'
+category: Data
 ---
 
 # {{ $frontmatter.title }}
