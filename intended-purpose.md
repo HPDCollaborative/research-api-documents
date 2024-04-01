@@ -3,11 +3,11 @@ title: Intended Purpose
 category: Introduction
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} {.doc-heading}
 
 [[toc]]
 
-## Overview
+## Overview {.doc-heading}
 
 This documentation is here to provide a reference for both incoming and outgoing data streams of the HPD Research API for [HPD Collaborative Open Standard v2.2.](https://www.hpd-collaborative.org/hpd-2-2-standard)
 
@@ -23,13 +23,13 @@ All incoming property values are set to Pascal Case and must be sent/received us
 Use the `Versions` dropdown menu top right of the page to view other versions of the HPD Open Standard.
 :::
 
-## What to Expect
+## What to Expect {.doc-heading}
 
 On each doc page you'll find a Structure section which will illustrate the shape of the data with type values, and then all properties available for the given data structure.
 
 Let's make up a data object example widget.
 
-## Structure
+## Structure {.doc-heading}
 
 ```json
 {
@@ -41,7 +41,7 @@ Let's make up a data object example widget.
 }
 ```
 
-### Name
+### Name {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
@@ -50,7 +50,7 @@ Let's make up a data object example widget.
 Occasionally you'll see additional notes if something needs to be noted or explained. Otherwise this box will not appear at all.
 :::
 
-### Quantity
+### Quantity {.doc-heading}
 
 - type: **`<int>`**
 - required: **`true`**
@@ -59,7 +59,7 @@ Occasionally you'll see additional notes if something needs to be noted or expla
 Make sure you pay attention to `yellow` warning and `red` danger boxes for items that need special attention.
 :::
 
-### Amount
+### Amount {.doc-heading}
 
 - type: **`<float>`**
 - required: **`true`**
@@ -68,7 +68,7 @@ Make sure you pay attention to `yellow` warning and `red` danger boxes for items
 Numerical props will come in either `<int>` or `<float>`, make sure you note this in your internal storage.
 :::
 
-### Status
+### Status {.doc-heading}
 
 - type: **`<bool>`**
 - required: **`true`**
@@ -99,7 +99,7 @@ Just kidding ... don't drink and code! But you get the idea.
 Most often what you'll see in this `Dev Note` is a diff reference from the previous version of the api.
 :::
 
-### Options
+### Options {.doc-heading}
 
 - type: **`<array>`**
 - related: [Options](#)

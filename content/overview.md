@@ -3,11 +3,11 @@ title: Introduction
 category: Content
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} {.doc-heading}
 
 [[toc]]
 
-## Overview
+## Overview {.doc-heading}
 
 The Content section represents the heart of an HPD. This is where you'll find:
 
@@ -15,7 +15,7 @@ The Content section represents the heart of an HPD. This is where you'll find:
 - [Substances](./materials/substances/)
 - [Hazards](./materials/substances/hazards.md)
 
-## Inventory Reporting Format
+## Inventory Reporting Format {.doc-heading}
 
 HPDs can be created with two different inventory reporting formats:
 

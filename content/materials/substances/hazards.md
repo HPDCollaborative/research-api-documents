@@ -3,11 +3,11 @@ title: Hazards
 category: Content
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} {.doc-heading}
 
 [[toc]]
 
-## Structure
+## Structure {.doc-heading}
 
 ```json
 [
@@ -21,22 +21,22 @@ category: Content
 ]
 ```
 
-### Name
+### Name {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### List
+### List {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Endpoint
+### Endpoint {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Abbreviation
+### Abbreviation {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**

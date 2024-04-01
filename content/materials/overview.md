@@ -3,11 +3,11 @@ title: Materials
 category: Content
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} {.doc-heading}
 
 [[toc]]
 
-## Structure
+## Structure {.doc-heading}
 
 ```json
 {
@@ -26,62 +26,62 @@ category: Content
 }
 ```
 
-### Name
+### Name {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Min
+### Min {.doc-heading}
 
 - type: **`<float>`**
 - required: **`true`**
 
-### Max
+### Max {.doc-heading}
 
 - type: **`<float>`**
 - required: **`true`**
 
-### Alternate
+### Alternate {.doc-heading}
 
 - type: **`<bool>`**
 - required: **`true`**
 
-### Reportable
+### Reportable {.doc-heading}
 
 - type: **`<bool>`**
 - required: **`true`**
 
-### HpdUrl
+### HpdUrl {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Threshold
+### Threshold {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Residuals
+### Residuals {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### ResidualNotes
+### ResidualNotes {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Notes
+### Notes {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### MaterialType
+### MaterialType {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Substances
+### Substances {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**

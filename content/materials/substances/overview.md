@@ -3,11 +3,11 @@ title: Substances
 category: Content
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} {.doc-heading}
 
 [[toc]]
 
-## Structure
+## Structure {.doc-heading}
 
 ```json
 [
@@ -29,72 +29,72 @@ category: Content
 ]
 ```
 
-### Name
+### Name {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### CasRn
+### CasRn {.doc-heading}
 
 - type: **`<string>`**
 - required: **`false`**
 
-### GreenScreen
+### GreenScreen {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Payload
+### Payload {.doc-heading}
 
 - type: **`<array>`**
 - required: **`false`**
 
-### Min
+### Min {.doc-heading}
 
 - type: **`<float>`**
 - required: **`true`**
 
-### Max
+### Max {.doc-heading}
 
 - type: **`<float>`**
 - required: **`true`**
 
-### Name
+### Name {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Residual
+### Residual {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Recycle
+### Recycle {.doc-heading}
 
 - type: **`<bool>`**
 - required: **`true`**
 
-### Nano
+### Nano {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Role
+### Role {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Notes
+### Notes {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### ScreenedAt
+### ScreenedAt {.doc-heading}
 
 - type: **`<timestamp>`**
 - required: **`true`**
 
-### Hazards
+### Hazards {.doc-heading}
 
 - type: **`<array>`**
 - required: **`false`**

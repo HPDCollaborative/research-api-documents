@@ -3,11 +3,11 @@ title: Reference
 category: Data
 ---
 
-# {{ $frontmatter.title }}
+# {{ $frontmatter.title }} {.doc-heading}
 
 [[toc]]
 
-## Structure
+## Structure {.doc-heading}
 
 ```json
 {
@@ -27,69 +27,69 @@ category: Data
 }
 ```
 
-### Address1
+### Address1 {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Address2
+### Address2 {.doc-heading}
 
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null|string`**
 
-### City
+### City {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### State
+### State {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Postal
+### Postal {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Country
+### Country {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Website
+### Website {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Contact
+### Contact {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Title
+### Title {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Phone
+### Phone {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### Email
+### Email {.doc-heading}
 
 - type: **`<string>`**
 - required: **`true`**
 
-### PreparedBy
+### PreparedBy {.doc-heading}
 
 - type: **`<int>`**
 - required: **`false`**
 - default: **`null|string`**
 
-### VerifiedBy
+### VerifiedBy {.doc-heading}
 
 - type: **`<int>`**
 - required: **`false`**
