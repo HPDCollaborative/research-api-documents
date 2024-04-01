@@ -1,7 +1,6 @@
 ---
 title: Company
-lastUpdated: true
-outline: 'deep'
+category: Container
 ---
 
 # {{ $frontmatter.title }}

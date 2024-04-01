@@ -1,7 +1,6 @@
 ---
 title: General Notes
-lastUpdated: true
-outline: 'deep'
+category: Container
 ---
 
 # {{ $frontmatter.title }}

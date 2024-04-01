@@ -1,7 +1,6 @@
 ---
 title: Intended Purpose
-lastUpdated: true
-outline: 'deep'
+category: Introduction
 ---
 
 # {{ $frontmatter.title }}
@@ -61,7 +60,7 @@ Make sure you pay attention to `yellow` warning and `red` danger boxes for items
 - type: **`<float>`**
 - required: **`true`**
 
-::: warning  
+::: warning
 Numerical props will come in either `<int>` or `<float>`, make sure you note this in your internal storage.
 :::
 
@@ -103,7 +102,7 @@ Most often what you'll see in this `Dev Note` is a diff reference from the previ
 - required: **`false`**
 - default: **`<null|string>`**
 
-::: tip  
+::: tip
 Only props that are **NOT** required will have a default value, if at all. Props that show a `related` option are linked to their related data object.
 :::
 

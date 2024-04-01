@@ -1,0 +1,76 @@
+[
+  {
+    "text": "Introduction",
+    "items": [{ "text": "Intended Purpose", "link": "" }]
+  },
+  {
+    "text": "Container",
+    "collapsible": true,
+    "items": [
+      { "text": "Introduction", "link": "data/" },
+      { "text": "Accessories", "link": "data/accessories" },
+      { "text": "Certifications", "link": "data/certifications" },
+      { "text": "Company", "link": "data/company" },
+      { "text": "General", "link": "data/general" },
+      { "text": "Notes", "link": "data/notes" },
+      { "text": "Parts", "link": "data/parts" },
+      { "text": "Product", "link": "data/product" },
+      { "text": "Reference", "link": "data/reference" },
+      { "text": "Voc", "link": "data/voc" }
+    ]
+  },
+  {
+    "text": "Content",
+    "collapsible": true,
+    "items": [
+      {
+        "text": "Introduction",
+        "link": "content/"
+      },
+      {
+        "text": "Nested Materials",
+        "link": "content/nested-materials/"
+      },
+      {
+        "text": "Substances",
+        "link": "content/substances/"
+      },
+      {
+        "text": "- Hazards",
+        "link": "content/substances/hazards"
+      },
+      {
+        "text": "- Listings",
+        "link": "content/substances/listings"
+      },
+      {
+        "text": "Materials",
+        "link": "content/materials/"
+      },
+      {
+        "text": "- Biological",
+        "link": "content/materials/biological"
+      },
+      {
+        "text": "- Geological",
+        "link": "content/materials/geological"
+      },
+      {
+        "text": "- Mixed Content",
+        "link": "content/materials/mixed-content"
+      },
+      {
+        "text": "- Electronics",
+        "link": "content/materials/electronics"
+      },
+      {
+        "text": "- Fasteners",
+        "link": "content/materials/fasteners"
+      },
+      {
+        "text": "- Metal Alloys",
+        "link": "content/materials/metal-alloys"
+      }
+    ]
+  }
+]

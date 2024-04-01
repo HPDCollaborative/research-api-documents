@@ -1,7 +1,6 @@
 ---
 title: Introduction
-lastUpdated: true
-outline: 'deep'
+category: Content
 ---
 
 # {{ $frontmatter.title }}
@@ -13,11 +12,11 @@ outline: 'deep'
 The Content section represents the heart of an HPD. This is where you'll find:
 
 - [Nested Materials](./nested-materials/)
-- [Substances](./nested-materials/substances/)
-- [Materials](./nested-materials/materials/)
-- [Hazards](./nested-materials/substances/hazards.md)
-- [Additional Listings](./nested-materials/substances/listings.md)
-- [Special Conditions](./nested-materials/materials/special-conditions/biological.md)
+- [Substances](./substances/)
+- [Materials](./materials/)
+- [Hazards](./substances/hazards)
+- [Additional Listings](./substances/listings)
+- [Special Conditions](./materials/biological)
 
 ## Inventory Reporting Format
 

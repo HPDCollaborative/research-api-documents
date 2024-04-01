@@ -1,7 +1,6 @@
 ---
 title: Materials
-lastUpdated: true
-outline: 'deep'
+category: Content
 ---
 
 # {{ $frontmatter.title }}
@@ -52,12 +51,12 @@ outline: 'deep'
 - type: **`<object>`**
 - required: **`true`**
 - related: 1 of 6 Special Conditions
-  - [Biological](./special-conditions/biological.md)
-  - [Geological](./special-conditions/geological.md)
-  - [Mixed Content](./special-conditions/geological.md)
-  - [Electronics](./special-conditions/geological.md)
-  - [Fasteners](./special-conditions/geological.md)
-  - [Metal Alloys](./special-conditions/geological.md)
+  - [Biological](./biological)
+  - [Geological](./geological)
+  - [Mixed Content](./mixed-content)
+  - [Electronics](./electronics)
+  - [Fasteners](./fasteners)
+  - [Metal Alloys](./metal-alloys)
 
 ### Min
 

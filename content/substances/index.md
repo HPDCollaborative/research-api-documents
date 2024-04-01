@@ -1,7 +1,6 @@
 ---
 title: Substances
-lastUpdated: true
-outline: 'deep'
+category: Content
 ---
 
 # {{ $frontmatter.title }}

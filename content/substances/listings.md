@@ -1,7 +1,6 @@
 ---
 title: Listings
-lastUpdated: true
-outline: 'deep'
+category: Content
 ---
 
 # {{ $frontmatter.title }}

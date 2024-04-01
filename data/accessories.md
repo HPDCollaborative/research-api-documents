@@ -1,7 +1,6 @@
 ---
 title: Accessories
-lastUpdated: true
-outline: 'deep'
+category: Container
 ---
 
 # {{ $frontmatter.title }}

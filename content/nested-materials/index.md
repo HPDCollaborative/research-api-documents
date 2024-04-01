@@ -1,7 +1,6 @@
 ---
 title: Nested Materials
-lastUpdated: true
-outline: 'deep'
+category: Content
 ---
 
 # {{ $frontmatter.title }}
@@ -16,21 +15,21 @@ Nested Materials is a new data array that supercedes Materials in version 2.2 an
 
 ```json
 {
-	"NestedMaterials": [
-		{
-			"Name": "<string>",
-			"Min": "<float>",
-			"Max": "<float>",
-			"AlternateOf": "<object>",
-			"NoReportableSubstances": "<bool>",
-			"Threshold": "<int>",
-			"Residuals": "<string>",
-			"ResidualNotes": "<string>",
-			"MaterialType": "<string>",
-			"Substances": "<array>",
-			"Materials": "<array>"
-		}
-	]
+  "NestedMaterials": [
+    {
+      "Name": "<string>",
+      "Min": "<float>",
+      "Max": "<float>",
+      "AlternateOf": "<object>",
+      "NoReportableSubstances": "<bool>",
+      "Threshold": "<int>",
+      "Residuals": "<string>",
+      "ResidualNotes": "<string>",
+      "MaterialType": "<string>",
+      "Substances": "<array>",
+      "Materials": "<array>"
+    }
+  ]
 }
 ```
 
@@ -111,14 +110,14 @@ Alternate for `Nested Materials`is now a reference to a `primary` instance of th
 
 - type: **`array`**
 - required: **`false`**
-- related: [Substances](./substances/)
+- related: [Substances](../substances/)
 - default: **`string`**
 
 ### Materials
 
 - type: **`array`**
 - required: **`false`**
-- related: [Materials](./materials/)
+- related: [Materials](../materials/)
 - default: **`string`**
 
 ::: danger
