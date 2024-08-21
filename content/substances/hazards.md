@@ -9,8 +9,10 @@ category: Content
 
 ## Structure
 
+Hazards, if included, exist as an array of Hazard objects listed with the key of `Hazards` and are structured as follows:
+
 ```json
-[
+[ // Start of "Hazards" array
   {
     "Name": "<string>",
     "List": "<string>",
@@ -20,8 +22,6 @@ category: Content
   ...
 ]
 ```
-
----
 
 ### Name
 

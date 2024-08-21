@@ -8,18 +8,23 @@ outline: 'deep'
 
 [[toc]]
 
+> [!INFO]
+> `{{ $frontmatter.title }}` is an addition to the 2.3 Standard.
+
 ## Structure
+
+`{{ $frontmatter.title }}` is an object that can be attached to a [Material](../materials/) object under the `Condition` key.
 
 ```json
 {
-	"GeologicalMaterial": {
-		"Origin": "<string>",
-		"IngredientComposition": "<string>",
-		"PotentialPresenceOfToxicMaterials": "<string>",
-		"ToxicMaterialDescription": "<string>",
-		"PresenceOfRadioactiveElements": "<string>",
-		"RadioactiveElementDescription": "<string>"
-	}
+  "GeologicalMaterial": {
+    "Origin": "<string>",
+    "IngredientComposition": "<string>",
+    "PotentialPresenceOfToxicMaterials": "<string>",
+    "ToxicMaterialDescription": "<string>",
+    "PresenceOfRadioactiveElements": "<string>",
+    "RadioactiveElementDescription": "<string>"
+  }
 }
 ```
 

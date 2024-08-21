@@ -13,8 +13,10 @@ Listings is a new data array that represents Additional Hazard Listings.
 
 ## Structure
 
+Listings, if included, exist as an array of Listing objects listed with the key of `Listings` and are structured as follows:
+
 ```json
-[
+[ // Start of "Listings" array
   {
     "Listing": "<string>",
     "Agency": "<string>",
@@ -24,7 +26,17 @@ Listings is a new data array that represents Additional Hazard Listings.
 ]
 ```
 
----
+#### DIFF 2.2 > 2.3
+
+```diff
++ "Listings": [
++   {
++     "Listing": "<string>",
++     "Agency": "<string>",
++     "Notification": "<string>"
++   }
++ ]
+```
 
 ### Listing
 

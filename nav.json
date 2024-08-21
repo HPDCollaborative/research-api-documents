@@ -70,6 +70,26 @@
       {
         "text": "- Metal Alloys",
         "link": "content/materials/metal-alloys"
+      },
+      {
+        "text": "Polymers",
+        "link": "content/polymers/"
+      },
+      {
+        "text": "- With CASRN",
+        "link": "content/polymers/with-casrn"
+      },
+      {
+        "text": "- Without CASRN",
+        "link": "content/polymers/without-casrn"
+      },
+      {
+        "text": "- Unwilling to Share",
+        "link": "content/polymers/undisclosed"
+      },
+      {
+        "text": "Locations",
+        "link": "content/locations"
       }
     ]
   }

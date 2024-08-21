@@ -22,9 +22,18 @@ category: Container
   "Title": "<string>",
   "Phone": "<string>",
   "Email": "<string>",
+  "Latitude": "<decimal:10,7>",
+  "Longitude": "<decimal:10,7>",
   "PreparedBy": "<string>",
   "VerifiedBy": "<string>"
 }
+```
+
+#### DIFF 2.2 > 2.3
+
+```diff
++  "Latitude": "<decimal:10,7>",
++  "Longitude": "<decimal:10,7>",
 ```
 
 ### Address1
@@ -82,6 +91,18 @@ category: Container
 
 - type: **`<string>`**
 - required: **`true`**
+
+### Latitude
+
+- type: **`<decimal:10,7>`**
+- required: **`false`**
+- default: **`null|string`**
+
+### Longitude
+
+- type: **`<decimal:10,7>`**
+- required: **`false`**
+- default: **`null|string`**
 
 ### PreparedBy
 

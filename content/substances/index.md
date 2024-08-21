@@ -9,36 +9,43 @@ category: Content
 
 ## Structure
 
+Substances, if included, exist as an array of Substance objects listed with the key of `Substances` and are structured as follows:
+
 ```json
-{
-  "Name": "<string>",
-  "CasRn": "<string>",
-  "GreenScreen": "<string>",
-  "Min": "<float>",
-  "Max": "<float>",
-  "Residual": "<string>",
-  "Recycle": "<string>",
-  "AlternateOf": "<object>",
-  "Nano": "<bool>",
-  "Role": "<string>",
-  "Notes": "<string>",
-  "ScreenedAt": "<timestamp>",
-  "Hazards": "<array>",
-  "Listings": "<array>"
-}
+[ // Start of "Substances" array
+  {
+    "Name": "<string>",
+    "CasRn": "<string>",
+    "GreenScreen": "<string>",
+    "ScreeningEngine": "<string>",
+    "Min": "<float>",
+    "Max": "<float>",
+    "Residual": "<string>",
+    "Recycle": "<string>",
+    "AlternateOf": "<object|string>",
+    "Nano": "<bool>",
+    "Role": "<string>",
+    "Notes": "<string>",
+    "ScreenedAt": "<timestamp>",
+    "Hazards": "<array>",
+    "Listings": "<array>",
+    "Locations": "<array>"
+  },
+  ...
+]
 ```
 
-#### DIFF 2.2 > main
+#### DIFF 2.2 > 2.3
 
 ```diff
 - "Payload": "<array>"
 - "Residual": "<bool>"
-+ "AlternateOf": "<object>"
++ "ScreeningEngine": "<string>",
++ "AlternateOf": "<object|string>"
 + "Residual": "<string>"
 + "Listings": "<array>"
++ "Locations": "<array>"
 ```
-
----
 
 ### Name
 
@@ -57,12 +64,12 @@ category: Content
 
 ### Min
 
-- type: **`<int>`**
+- type: **`<float>`**
 - required: **`true`**
 
 ### Max
 
-- type: **`<int>`**
+- type: **`<float>`**
 - required: **`false`**
 
 ### Residual
@@ -83,7 +90,7 @@ category: Content
 - default: **`null|string`**
 
 ::: warning CAUTION
-Alternates for `Substances` is now a references to a `primary` instance of their respective objects.
+`AlternateOf` for a `Substance` is now a reference to a `primary` Substance within the same `NestedMaterial`.
 :::
 
 ### Nano
@@ -119,4 +126,11 @@ Alternates for `Substances` is now a references to a `primary` instance of their
 - type: **`<array>`**
 - required: **`false`**
 - related: [Listings](./listings)
+- default: **`string`**
+
+### Locations
+
+- type: **`array`**
+- required: **`false`**
+- related: [Locations](../locations)
 - default: **`string`**

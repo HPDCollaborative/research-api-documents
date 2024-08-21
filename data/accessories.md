@@ -30,8 +30,6 @@ category: Container
 +   "Notes": "<string>"
 ```
 
----
-
 ### Name
 
 - type: **`<string>`**
