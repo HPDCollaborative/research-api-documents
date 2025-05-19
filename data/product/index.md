@@ -11,7 +11,8 @@ category: Container
 
 ```json
 {
-  "Name": "<string>"
+  "Name": "<string>",
+  "Types": "<array>"
 }
 ```
 
@@ -19,3 +20,10 @@ category: Container
 
 - type: **`<string>`**
 - required: **`true`**
+
+### Types
+
+- type: **`array`**
+- required: **`false`**
+- related: [Product Types](./types)
+- default: **`string`**

@@ -15,6 +15,10 @@
       { "text": "Notes", "link": "data/notes" },
       { "text": "Parts", "link": "data/parts" },
       { "text": "Product", "link": "data/product" },
+      {
+        "text": "- Product Types",
+        "link": "data/product/types"
+      },
       { "text": "Reference", "link": "data/reference" },
       { "text": "Voc", "link": "data/voc" }
     ]
