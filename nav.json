@@ -1,7 +1,10 @@
 [
   {
     "text": "Introduction",
-    "items": [{ "text": "Intended Purpose", "link": "" }]
+    "items": [
+        { "text": "Intended Purpose", "link": "" },
+        { "text": "Repository API", "link": "repository-api" }
+    ]
   },
   {
     "text": "Container",
