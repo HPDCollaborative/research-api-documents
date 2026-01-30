@@ -19,7 +19,7 @@ category: Container
     "Checksum": "<string>",
     "ContentInDescendingOrderOfQuantity": "<object>",
     "CreatedDate": "<date>",
-    "DataPDFv3": 
+    "DataPDFv3": "<object>",
     "ExpiryDate": "<date>",
     "HPDUrl": "<string>",
     "HPDVersion": "<string>",
