@@ -3,7 +3,8 @@
     "text": "Introduction",
     "items": [
         { "text": "Intended Purpose", "link": "" },
-        { "text": "Repository API", "link": "repository-api" }
+        { "text": "Repository API", "link": "repository-api" },
+        { "text": "Endpoints", "link": "endpoints" }
     ]
   },
   {
