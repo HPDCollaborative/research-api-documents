@@ -13,24 +13,28 @@ Nested Materials is a new data array that supercedes Materials in version 2.2 an
 
 ## Structure
 
+Nested Materials exist as an array of NestedMaterial objects listed with the key of `NestedMaterials` and are structured as follows:
+
 ```json
-{
-  "NestedMaterials": [
-    {
-      "Name": "<string>",
-      "Min": "<float>",
-      "Max": "<float>",
-      "AlternateOf": "<object>",
-      "NoReportableSubstances": "<bool>",
-      "Threshold": "<int>",
-      "Residuals": "<string>",
-      "ResidualNotes": "<string>",
-      "MaterialType": "<string>",
-      "Substances": "<array>",
-      "Materials": "<array>"
-    }
-  ]
-}
+[ // Start of "NestedMaterials" array
+  {
+    "Name": "<string>",
+    "Min": "<float>",
+    "Max": "<float>",
+    "AlternateOf": "<object|string>",
+    "NoReportableSubstances": "<bool>",
+    "Threshold": "<int>",
+    "Residuals": "<string>",
+    "ResidualNotes": "<string>",
+    "Notes": "<string>",
+    "MaterialType": "<string>",
+    "Substances": "<array|string>",
+    "Materials": "<array|string>",
+    "Polymers": "<array|string>",
+    "Locations": "<array|string>"
+  },
+  ...
+]
 ```
 
 #### DIFF 2.2 > 2.3
@@ -45,15 +49,16 @@ Nested Materials is a new data array that supercedes Materials in version 2.2 an
 +     "NoReportableSubstances": "<bool>",
 +     "Threshold": "<int>",
 +     "Residuals": "<string>",
++     "Notes": "<string>",
 +     "ResidualNotes": "<string>",
 +     "MaterialType": "<string>",
-+     "Substances": "<array>",
-+     "Materials": "<array>"
++     "Substances": "<array|string>",
++     "Materials": "<array|string>",
++     "Polymers": "<array|string>",
++     "Locations": "<array|string>"
 +   }
 + ]
 ```
-
----
 
 ### Name
 
@@ -78,7 +83,7 @@ Nested Materials is a new data array that supercedes Materials in version 2.2 an
 - default: **`null|string`**
 
 ::: warning CAUTION
-Alternate for `Nested Materials`is now a reference to a `primary` instance of their respective objects.
+`AlternateOf` for a `Nested Material` is now a reference to a `primary` Nested Material within the same `Record`.
 :::
 
 ### NoReportableSubstances
@@ -97,6 +102,11 @@ Alternate for `Nested Materials`is now a reference to a `primary` instance of th
 - required: **`true`**
 
 ### ResidualNotes
+
+- type: **`<string>`**
+- required: **`true`**
+
+### Notes
 
 - type: **`<string>`**
 - required: **`true`**
@@ -120,6 +130,20 @@ Alternate for `Nested Materials`is now a reference to a `primary` instance of th
 - related: [Materials](../materials/)
 - default: **`string`**
 
+### Polymers
+
+- type: **`array`**
+- required: **`false`**
+- related: [Polymers](../polymers/)
+- default: **`string`**
+
 ::: danger
-Even though both `Materials` and `Substances` are marked as "not required" above, make sure you receive at least 1 of either. If neither are present and the `NoReportableSubstances` prop is `No`, this is not a valid HPD.
+Even though `Substances`, `Materials` and `Polymers` are marked as "not required" above, make sure you receive at least 1 of either. If none are present and the `NoReportableSubstances` prop is `No`, this is not a valid HPD.
 :::
+
+### Locations
+
+- type: **`array`**
+- required: **`false`**
+- related: [Locations](../locations)
+- default: **`string`**

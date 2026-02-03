@@ -1,5 +1,5 @@
 ---
-title: Fasteners
+title: Minor Fasteners Material
 lastUpdated: true
 outline: 'deep'
 ---
@@ -8,19 +8,24 @@ outline: 'deep'
 
 [[toc]]
 
+> [!INFO]
+> `{{ $frontmatter.title }}` is an addition to the 2.3 Standard.
+
 ## Structure
+
+`{{ $frontmatter.title }}` is an object that can be attached to a [Material](../materials/) object under the `Condition` key.
 
 ```json
 {
-	"MinorFastener": {
-		"ComponentComposition": "<string>",
-		"EuRohsConformance": "<string>",
-		"EuReachSvhcContent": "<string>",
-		"EuRohsExemptions": "<string>",
-		"SvhcDeclaration": "<string>",
-		"LbcRedListCompliance": "<string>",
-		"SpecialConditionThresholdDeclaration": "<string>"
-	}
+  "MinorFastener": {
+    "ComponentComposition": "<string>",
+    "EuRohsConformance": "<string>",
+    "EuReachSvhcContent": "<string>",
+    "EuRohsExemptions": "<string>",
+    "SvhcDeclaration": "<string>",
+    "LbcRedListCompliance": "<string>",
+    "SpecialConditionThresholdDeclaration": "<string>"
+  }
 }
 ```
 

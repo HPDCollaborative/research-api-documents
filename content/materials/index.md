@@ -7,10 +7,16 @@ category: Content
 
 [[toc]]
 
+::: info
+Material is a refactored object from v2.2, for what is now a `Nested Material` in v2.3 of the Standard. Materials were previously part of Substances and known as `Special Conditions`.
+:::
+
 ## Structure
 
+Materials exist as an array of Material objects listed with the key of `Materials` and are structured as follows:
+
 ```json
-[
+[ // Start of "Materials" array
   {
     "Name": "<string>",
     "Condition": "<object>",
@@ -20,7 +26,8 @@ category: Content
     "Recycle": "<string>",
     "Nano": "<bool>",
     "Role": "<string>",
-    "Notes": "<string>"
+    "Notes": "<string>",
+    "Locations": "<decimal:10,7|string>"
   }
   ...
 ]
@@ -31,6 +38,7 @@ category: Content
 ```diff
 + "Condition": "<object>"
 + "AlternateOf": "<object>"
++ "Locations": "<decimal:10,7|string>"
 - "Alternate": "<string>"
 - "Reportable": "<string>"
 - "HpdUrl": "<string>"
@@ -76,7 +84,7 @@ category: Content
 - default: **`null|string`**
 
 ::: warning CAUTION
-Alternates for `Materials` are now references to a `primary` or `parent` instance of their respective objects.
+`AlternateOf` for a `Materials` is now a reference to a `primary` Material within the same `Nested Material`.
 :::
 
 ### Recycle
@@ -98,3 +106,10 @@ Alternates for `Materials` are now references to a `primary` or `parent` instanc
 
 - type: **`<string>`**
 - required: **`false`**
+
+### Locations
+
+- type: **`array`**
+- required: **`false`**
+- related: [Locations](../locations)
+- default: **`string`**

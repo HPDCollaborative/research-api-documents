@@ -13,10 +13,11 @@ The Content section represents the heart of an HPD. This is where you'll find:
 
 - [Nested Materials](./nested-materials/)
 - [Substances](./substances/)
-- [Materials](./materials/)
+- [Materials](./materials/) _(formerly Special Conditions)_
 - [Hazards](./substances/hazards)
 - [Additional Listings](./substances/listings)
-- [Special Conditions](./materials/biological)
+- [Polymers](./polymers)
+- [Locations](./locations)
 
 ## Inventory Reporting Format
 

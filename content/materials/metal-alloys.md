@@ -1,5 +1,5 @@
 ---
-title: Metal Alloys
+title: Metal Alloys Material
 lastUpdated: true
 outline: 'deep'
 ---
@@ -8,6 +8,9 @@ outline: 'deep'
 
 [[toc]]
 
+> [!INFO]
+> `{{ $frontmatter.title }}` is an object that can be attached to a [Material](../materials/) object under the `Condition` key.
+
 ## Structure
 
 ```json
@@ -15,20 +18,21 @@ outline: 'deep'
 	"MetalAlloy": {
 		"UnsOrEnIdentifier": "<string>",
 		"MetalAlloyHpd": "<string>",
-		"GreenScreenAlloyingElements": "<string>",
-		"ListingNotes": "<string>"
+		"GreenScreenAlloyingElements": "<array>",
+		"ListingNotes": "<string>",
+		"IsAssociated": "<string>",
+		"IsPotableWater": "<string>"
 	}
 }
 ```
 
-#### DIFF 2.2 > 2.3
+#### DIFF 2.3 > 3.0
 
 ```diff
 + "MetalAlloy": {
-+   "UnsOrEnIdentifier": "<string>",
-+   "MetalAlloyHpd": "<string>",
-+   "GreenScreenAlloyingElements": "<string>",
-+   "ListingNotes": "<string>"
++   "GreenScreenAlloyingElements": "<array>",
++   "IsAssociated": "<string>",
++	"IsPotableWater": "<string>"
 + }
 ```
 
@@ -44,9 +48,30 @@ outline: 'deep'
 
 ### GreenScreenAlloyingElements
 
-- type: **`<string>`**
-- required: **`true`**
+- type: **`<array>`**
+- required: **`false`**
+```json
+{
+	"GreenScreenAlloyingElements": [
+		{
+			"Name": "<string",
+			"Casrn": "<string>",
+			"Percentage": {
+				"min_per_percentage": "<string",
+				"max_per_percentage": "<string"
+			},
+			"Element Role": "<string>",
+			"GreenScreen Score": "<string>",
+			"Listings":[
 
+			]
+		}
+
+	]
+		
+	
+}
+```
 ### ListingNotes
 
 - type: **`<string>`**

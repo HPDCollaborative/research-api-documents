@@ -16,13 +16,14 @@ https://documenter.getpostman.com/view/2852259/TVspjUMV
 ```json
 {
   "Data": <Array/Object>,
-  "Message": <String>
+  "Message": <String>,
   "Success": <Boolean>
 }
 ```
 
 ## Get All HPDs
 This endpoint allows you to get all the HPDs.
+
 GET **GetAllHPDsv3?Page={#Pages}&Rows=10&Token={{Token}}**
 
 
@@ -40,10 +41,11 @@ GET **GetAllHPDsv3?Page={#Pages}&Rows=10&Token={{Token}}**
 |--------|--------|-------------|
 | Data | array | Array of HPD objects. |
 | Message | string | Pagination summary describing the returned range (e.g., `"HPDs 11 to 20 of 145"`). |
-| Success | boolean | Indicates whether the request was successful (`true` or `false`). |
+| Success | boolean | Indicates wh  ether the request was successful (`true` or `false`). |
 
 ## Get HPD by ID
 This endpoint allows you to get a single HPD by ID
+
 GET **/GetHPDv3?Token={{Token}}&ID={{ID}}**
 
 ### Query Parameters
@@ -82,6 +84,7 @@ GET **/GetHPDFileNamev3?Filename={{Filename}}f&Token={{Token}}**
 
 ## Get HPD by Query
 The HPD Get by Query method allows for more complex searches using CAML (Collaborative Application Markup Language) queries.
+
 GET **GetAllHPDsv3?Page={#Pages}&Rows=10&Token={{Token}}**
 
 
@@ -114,7 +117,7 @@ Below are examples of how to structure the `query` parameter for the HPD Get by 
 <Where>
   <Eq> 
     <FieldRef Name='unique_id_TXT' /> 
-    <Value Type=Text>26311</Value>
+    <Value Type='Text'>26311</Value>
   </Eq>
 </Where>
 ```
@@ -137,7 +140,7 @@ Below are examples of how to structure the `query` parameter for the HPD Get by 
     </Geq>
     <Geq>
       <FieldRef Name='Modified' />
-      <Value Type='DateTime'>2022-08--18T01:00:00.000Z</Value>
+      <Value Type='DateTime'>2022-08-18T01:00:00.000Z</Value>
     </Geq>
   </Or>
 </Where>
@@ -147,7 +150,7 @@ Below are examples of how to structure the `query` parameter for the HPD Get by 
 <Where>
   <BeginsWith>
     <FieldRef Name='csi_section' />
-    <Value Type=Text>09 6</Value>
+    <Value Type='Text'>09 6</Value>
   </BeginsWith>
 </Where>
 ```
@@ -173,8 +176,8 @@ Below are examples of how to structure the `query` parameter for the HPD Get by 
 ```xml
 <Where>
   <Contains>
-    <FieldRef Name=Product_x0020_Name />
-    <Value Type=Text>REBAR</Value>
+    <FieldRef Name='Product_x0020_Name' />
+    <Value Type='Text'>REBAR</Value>
   </Contains>
 </Where>
 ```
@@ -205,6 +208,7 @@ Use the Internal Name of the fields to be able to use it on a query
 
 ## Get All Withdrawn HPDs
 This endpoint allows you to get all the HPDs that have been withdrawn from the repository.
+
 GET **/GetAllWithdrawnHPDs?Page=1&Rows=10&Token={{Token}}**
 
 

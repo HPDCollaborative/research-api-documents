@@ -1,5 +1,5 @@
 ---
-title: Mixed Recycled Content
+title: Mixed Recycled Content Material
 lastUpdated: true
 outline: 'deep'
 ---
@@ -8,19 +8,24 @@ outline: 'deep'
 
 [[toc]]
 
+> [!INFO]
+> `{{ $frontmatter.title }}` is an addition to the 2.3 Standard.
+
 ## Structure
+
+`{{ $frontmatter.title }}` is an object that can be attached to a [Material](../materials/) object under the `Condition` key.
 
 ```json
 {
-	"MixedRecycledContent": {
-		"IngredientDescription": "<string>",
-		"TestingPerformed": "<string>",
-		"TestingDescription": "<string>",
-		"BatchVariation": "<string>",
-		"VariationDescription": "<string>",
-		"CountryOfOrigin": "<string>",
-		"MissingInformation": "<string>"
-	}
+  "MixedRecycledContent": {
+    "IngredientDescription": "<string>",
+    "TestingPerformed": "<string>",
+    "TestingDescription": "<string>",
+    "BatchVariation": "<string>",
+    "VariationDescription": "<string>",
+    "CountryOfOrigin": "<string>",
+    "MissingInformation": "<string>"
+  }
 }
 ```
 
