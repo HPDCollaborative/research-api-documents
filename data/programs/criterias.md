@@ -8,11 +8,9 @@ category: Programs
 [[toc]]
 
 > [!INFO]
-> Criteria ased on the 
+> Criteria based on the program prechecks
 
 ## Structure
-
-Locations are `implemented` as a Social Equity Indicator and apply to [Nested Materials](nested-materials/), [Substances](substances/), [Materials](materials/) and [Polymers](polymers).
 
 ```json
 "Criteria": {
