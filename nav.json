@@ -19,13 +19,11 @@
       { "text": "Notes", "link": "data/notes" },
       { "text": "Parts", "link": "data/parts" },
       { "text": "Product", "link": "data/product" },
-      { "text": "Programs", "link": "data/programs" },
-      { "text": "- Criteria", "link": "data/criterias" },
-      { "text": "- Results", "link": "data/results" },
       {
         "text": "- Product Types",
         "link": "data/product/types"
       },
+      { "text": "Programs", "link": "data/programs" },
       { "text": "Reference", "link": "data/reference" },
       { "text": "Voc", "link": "data/voc" }
     ]
