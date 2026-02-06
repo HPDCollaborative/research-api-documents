@@ -7,45 +7,47 @@ category: Container
 
 [[toc]]
 
+> [!INFO]
+> Precheck Programs that the HPD was checked against on the Builder
+
 ## Structure
 
 ```json
 {
+    "Created": "<date>",
+    "Criteria": "<object>",
+    "Hash": "<string>",
+    "Id": "<int>",
     "Name": "<string>",
     "Organization": "<string>",
     "ProgramLogoUrl": "<string>",
-    "Results": {
-        "Listings": {
-        "Fail": "<int>",
-        "Pass": "<int>",
-        "Total": "<int>",
-        "Warn": "<int>"
-        },
-        "Preferred": {
-        "Fail": "<int>",
-        "Pass": "<int>",
-        "Total": "<int>",
-        "Warn": "<int>"
-        },
-        "Redlists": {
-        "Fail": "<int>",
-        "Pass": "<int>",
-        "Total": "<int>",
-        "Warn": "<int>"0
-        },
-        "Required": {
-        "Fail": "<int>",
-        "Pass": "<int>",
-        "Total": "<int>",
-        "Warn": "<int>"
-        }
-    },
+    "Results": "<object>",
     "Score": "<string>",
     "Slug": "<string>",
     "Updated": "<date>",
     "Version": "<date>"
 }
 ```
+
+### Created
+
+- type: **`<date>`**
+- required: **`true`**
+
+### Criteria
+
+- type: **`<object>`**
+- required: **`true`**
+
+### Hash
+
+- type: **`<string>`**
+- required: **`true`**
+
+#### Id
+
+- type: **`<int>`**
+- required: **`true`**
 
 ### Name
 

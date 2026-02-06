@@ -22,22 +22,9 @@ Locations are `implemented` as a Social Equity Indicator and apply to [Nested Ma
     "Longitude": "<decimal:10,7|string>" ,
     "Stage": "<string>",
   }
-  ...
 ]
 ```
 
-#### DIFF 2.2 > 2.3
-
-```diff
-+ "Locations": [
-+   {
-+     "Country": "<string>",
-+     "Latitude": "<decimal:10,7|string>" ,
-+     "Longitude": "<decimal:10,7|string>" ,
-+     "Stage": "<string>",
-+   }
-+ ]
-```
 
 ### Country
 
