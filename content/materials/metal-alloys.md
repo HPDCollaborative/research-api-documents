@@ -18,7 +18,21 @@ outline: 'deep'
 	"MetalAlloy": {
 		"UnsOrEnIdentifier": "<string>",
 		"MetalAlloyHpd": "<string>",
-		"GreenScreenAlloyingElements": "<array>",
+		"GreenScreenAlloyingElements": [
+			{
+				"Name": "<string",
+				"Casrn": "<string>",
+				"Percentage": {
+					"min_per_percentage": "<string",
+					"max_per_percentage": "<string"
+				},
+				"Element Role": "<string>",
+				"GreenScreen Score": "<string>",
+				"Listings":[
+
+				]
+			}
+		],
 		"ListingNotes": "<string>",
 		"IsAssociated": "<string>",
 		"IsPotableWater": "<string>"
@@ -30,6 +44,7 @@ outline: 'deep'
 
 ```diff
 + "MetalAlloy": {
+-   "GreenScreenAlloyingElements": "<string>",
 +   "GreenScreenAlloyingElements": "<array>",
 +   "IsAssociated": "<string>",
 +	"IsPotableWater": "<string>"
@@ -63,13 +78,11 @@ outline: 'deep'
 			"Element Role": "<string>",
 			"GreenScreen Score": "<string>",
 			"Listings":[
-				
+
 			]
 		}
 
 	]
-		
-	
 }
 ```
 ### ListingNotes
