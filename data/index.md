@@ -25,15 +25,21 @@ The base data object should return the following JSON structure.
   "General": "<object>",
   "Notes": "<object>",
   "Parts": "<array>",
+  "PfasData": "<object>",
   "Product": "<object>",
   "Reference": "<object>",
+  "UniqueProductId": "[<string>]",
   "Voc": "<object>",
   "PublishedAt": "<timestamp>",
   "WithdrawnAt": "<timestamp>",
   "ScreenedAt": "<timestamp>"
 }
 ```
-
+#### DIFF 2.3 > 3.0
+```diff
++   "UniqueProductId": "[<string>]"
++   "PfasData": "<object>"
+```
 ### NumericId
 
 - type: **`<int>`**

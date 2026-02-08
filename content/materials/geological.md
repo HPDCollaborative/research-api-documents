@@ -28,18 +28,6 @@ outline: 'deep'
 }
 ```
 
-#### DIFF 2.2 > 2.3
-
-```diff
-+ "GeologicalMaterial": {
-+   "Origin": "<string>",
-+   "IngredientComposition": "<string>",
-+   "PotentialPresenceOfToxicMaterials": "<string>",
-+   "ToxicMaterialDescription": "<string>",
-+   "PresenceOfRadioactiveElements": "<string>",
-+   "RadioactiveElementDescription": "<string>"
-+ }
-```
 
 ### Origin
 

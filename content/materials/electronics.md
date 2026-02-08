@@ -27,18 +27,6 @@ outline: 'deep'
 }
 ```
 
-#### DIFF 2.2 > 2.3
-
-```diff
-+ "ElectronicComponent": {
-+   "IngredientDescription": "<string>",
-+   "Compliance": "<string>",
-+   "ComplianceExemptions": "<string>",
-+   "Takeback": "<string>",
-+   "OtherEolExplanation": "<string>"
-+ }
-```
-
 ### IngredientDescription
 
 - type: **`<string>`**

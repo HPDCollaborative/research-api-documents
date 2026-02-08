@@ -2,30 +2,76 @@
   {
     "text": "Introduction",
     "items": [
-        { "text": "Intended Purpose", "link": "" },
-        { "text": "Repository API", "link": "repository-api" },
-        { "text": "Endpoints", "link": "endpoints" }
+      {
+        "text": "Intended Purpose",
+        "link": ""
+      },
+      {
+        "text": "Repository API",
+        "link": "repository-api"
+      },
+      {
+        "text": "Endpoints",
+        "link": "endpoints"
+      }
     ]
   },
   {
     "text": "DataPDF",
     "collapsible": true,
     "items": [
-      { "text": "Introduction", "link": "data/" },
-      { "text": "Accessories", "link": "data/accessories" },
-      { "text": "Certifications", "link": "data/certifications" },
-      { "text": "Company", "link": "data/company" },
-      { "text": "General", "link": "data/general" },
-      { "text": "Notes", "link": "data/notes" },
-      { "text": "Parts", "link": "data/parts" },
-      { "text": "Product", "link": "data/product" },
+      {
+        "text": "Introduction",
+        "link": "data/"
+      },
+      {
+        "text": "Accessories",
+        "link": "data/accessories"
+      },
+      {
+        "text": "Certifications",
+        "link": "data/certifications"
+      },
+      {
+        "text": "Company",
+        "link": "data/company"
+      },
+      {
+        "text": "General",
+        "link": "data/general"
+      },
+      {
+        "text": "Notes",
+        "link": "data/notes"
+      },
+      {
+        "text": "Parts",
+        "link": "data/parts"
+      },
+      {
+        "text": "PFAS Data",
+        "link": "data/pfasdata"
+      },
+      {
+        "text": "Product",
+        "link": "data/product"
+      },
       {
         "text": "- Product Types",
         "link": "data/product/types"
       },
-      { "text": "Programs", "link": "data/programs" },
-      { "text": "Reference", "link": "data/reference" },
-      { "text": "Voc", "link": "data/voc" }
+      {
+        "text": "Programs",
+        "link": "data/programs"
+      },
+      {
+        "text": "Reference",
+        "link": "data/reference"
+      },
+      {
+        "text": "Voc",
+        "link": "data/voc"
+      }
     ]
   },
   {
@@ -79,6 +125,26 @@
       {
         "text": "- Metal Alloys",
         "link": "content/materials/metal-alloys"
+      },
+      {
+        "text": "Polymers",
+        "link": "content/polymers/"
+      },
+      {
+        "text": "- With CASRN",
+        "link": "content/polymers/with-casrn"
+      },
+      {
+        "text": "- Without CASRN",
+        "link": "content/polymers/without-casrn"
+      },
+      {
+        "text": "- Unwilling to Share",
+        "link": "content/polymers/undisclosed"
+      },
+      {
+        "text": "Locations",
+        "link": "content/locations"
       }
     ]
   }

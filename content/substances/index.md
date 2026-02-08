@@ -28,15 +28,6 @@ category: Content
 }
 ```
 
-#### DIFF 2.2 > main
-
-```diff
-- "Payload": "<array>"
-- "Residual": "<bool>"
-+ "AlternateOf": "<object>"
-+ "Residual": "<string>"
-+ "Listings": "<array>"
-```
 
 ---
 

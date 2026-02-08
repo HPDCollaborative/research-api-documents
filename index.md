@@ -73,28 +73,6 @@ Numerical props will come in either `<int>` or `<float>`, make sure you note thi
 Also watch for special `Dev Notes` which will provide additional code and are displayed in an accordion style panel with a right arrow as below:
 :::
 
-::: details Dev Note
-
-- Important coder life hack below:
-
-```php{6-8}
-$fun = (new Jamesons())->drink(function($bottle) {
-	try {
-		return Life::today->finish($bottle)
-			->without('spilling');
-	} catch (E $spillage) {
-		return TikTok::post($spillage->video)
-			->then(Life::passout())
-			->then(Life::tryAgainTomorrow());
-	}
-});
-```
-
-Just kidding ... don't drink and code! But you get the idea.
-
-Most often what you'll see in this `Dev Note` is a diff reference from the previous version of the api.
-:::
-
 ### Options
 
 - type: **`<array>`**

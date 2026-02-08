@@ -39,36 +39,8 @@ category: content
     "ScreenedAt": "<string>",
     "Locations": "<array>",
   }
-  ...
+  
 ]
-```
-
-#### DIFF 2.2 > 2.3
-
-```diff
-+ "Polymers": {
-+   "Name": "<string>",
-+   "Identifier": "<string>",
-+   "GreenScreen": "<string>",
-+   "ScreeningEngine": "<string>",
-+   "Min": "<float>",
-+   "Max": "<float>",
-+   "Residual": "<string>",
-+   "Recycle": "<string>",
-+   "AlternateOf": "<object|string>",
-+   "Nano": "<string>",
-+   "Role": "<string>",
-+   "PolymerType": "<string>",
-+   "AverageMolecularWeight": "<string>",
-+   "PercentOfMolecularWeightLessThan500Da": "<string>",
-+   "AdditionalSubstancesConsidered": "<string|null>",
-+   "GHSHazardStatements": "<string>",
-+   "HazardScreeningCompliance": "<string>",
-+   "PolymerNotes": "<string>",
-+   "AdditionalNotes": "<string>",
-+   "ScreenedAt": "<string>",
-+   "Locations": "<array>",
-+ }
 ```
 
 ### Name

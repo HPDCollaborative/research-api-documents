@@ -29,19 +29,7 @@ outline: 'deep'
 }
 ```
 
-#### DIFF 2.2 > 2.3
 
-```diff
-+ "MixedRecycledContent": {
-+   "IngredientDescription": "<string>",
-+   "TestingPerformed": "<string>",
-+   "TestingDescription": "<string>",
-+   "BatchVariation": "<string>",
-+   "VariationDescription": "<string>",
-+   "CountryOfOrigin": "<string>",
-+   "MissingInformation": "<string>"
-+ }
-```
 
 ### IngredientDescription
 

@@ -33,22 +33,6 @@ Materials exist as an array of Material objects listed with the key of `Material
 ]
 ```
 
-#### DIFF 2.2 > 2.3
-
-```diff
-+ "Condition": "<object>"
-+ "AlternateOf": "<object>"
-+ "Locations": "<decimal:10,7|string>"
-- "Alternate": "<string>"
-- "Reportable": "<string>"
-- "HpdUrl": "<string>"
-- "Threshold": "<string>"
-- "Residuals": "<string>"
-- "ResidualNotes": "<string>"
-- "MaterialType": "<string>"
-- "Substances": "<string>"
-```
-
 ### Name
 
 - type: **`<string>`**

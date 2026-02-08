@@ -22,11 +22,17 @@ category: Container
     "Lab": "<string>",
     "Facilities": "<string>",
     "Website": "<string>",
-    "Notes": "<string>"
+    "Notes": "<string>",
+    "ComplianceDetails": "<string>",
+    "ComplianceScope": "<string>"
   }
 ]
 ```
-
+#### DIFF 2.32 > 3.0
+```diff
++   "ComplianceDetails": "<string>"
++   "ComplianceScope": "<string>"
+```
 ### Type
 
 - type: **`<string>`**

@@ -35,30 +35,7 @@ Nested Materials exist as an array of NestedMaterial objects listed with the key
   },
   ...
 ]
-```
 
-#### DIFF 2.2 > 2.3
-
-```diff
-+ "NestedMaterials": [
-+   {
-+     "Name": "<string>",
-+     "Min": "<float>",
-+     "Max": "<float>",
-+     "AlternateOf": "<object>",
-+     "NoReportableSubstances": "<bool>",
-+     "Threshold": "<int>",
-+     "Residuals": "<string>",
-+     "Notes": "<string>",
-+     "ResidualNotes": "<string>",
-+     "MaterialType": "<string>",
-+     "Substances": "<array|string>",
-+     "Materials": "<array|string>",
-+     "Polymers": "<array|string>",
-+     "Locations": "<array|string>"
-+   }
-+ ]
-```
 
 ### Name
 
