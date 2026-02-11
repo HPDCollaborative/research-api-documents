@@ -1,5 +1,5 @@
 ---
-title:GreenScreen Alloying Elements
+title: GreenScreen Alloying Elements
 category: Metal Alloys
 ---
 
