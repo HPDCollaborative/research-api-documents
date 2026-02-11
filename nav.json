@@ -127,6 +127,10 @@
         "link": "content/materials/metal-alloys"
       },
       {
+        "text": "  - Green Screen Alloying Elements",
+        "link": "content/materials/metal-alloys/GreenScreenAlloyingElements"
+      },
+      {
         "text": "Polymers",
         "link": "content/polymers/"
       },

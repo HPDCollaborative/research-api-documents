@@ -1,6 +1,6 @@
 ---
 title: PFAS Data
-category: Container
+category: Data
 ---
 
 # {{ $frontmatter.title }}
@@ -30,14 +30,9 @@ category: Container
 ### AttestationSignature
 
 - type: **`<object>`**
-```json
-"AttestationSignature": {
-    "Type": "<string>",
-    "Signature": "<string>",
-  }
-```
 - required: **`false`**
 - default: **`null|object`**
+- related: [Attestation Signature](../AttestationSignature/)
 
 ### PfasStatus
 

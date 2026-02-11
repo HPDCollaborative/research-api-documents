@@ -37,7 +37,6 @@ category: Container
     "ModifiedDate": "<date>",
     "Nanomaterial": "<string>",
     "NumberOfGreenScreenBMContents": "<string>",
-    "PFSAttestationURL": "<string>",
     "Preparer": "<string>",
     "ProductDescription": "<string>",
     "ProductName": "<string>",
@@ -182,10 +181,6 @@ category: Container
 - type: **`<string>`**
 - required: **`false`**
 
-### PFSAttestationURL
-
-- type: **`<string>`**
-- required: **`false`**
 
 ### Preparer
 
