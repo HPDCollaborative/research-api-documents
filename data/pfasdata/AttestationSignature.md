@@ -23,6 +23,11 @@ category: PFAS Data
 - required: **`false`**
 - default: **`null|string`**
 
+::: tip
+The complete path to the signature image file is composed of the `BaseUrl` and the `SignaturePath`.
+Example: `https://hpdrepository.hpd-collaborative.org/repository/` + `SignaturePath`
+:::
+
 ### SignatureText
 
 - type: **`<string>`**
@@ -33,4 +38,5 @@ category: PFAS Data
 
 - type: **`<string>`**
 - required: **`false`**
-- default: **`null|string`**    
+- default: **`null|string`**  
+- values: **`image`**, **`text`**
