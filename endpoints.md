@@ -250,7 +250,7 @@ Markdown
 | **Comments** | string | Descriptive notes or additional context provided regarding the HPD deletion. |
 | **DeletedDate** | date | The timestamp indicating when the document was removed or archived from the active repository. |
 | **Filename** | string | The specific name of the stored file, typically used to download or reference the PDF. |
-| **HPDVersion** | string | The version of the Health Product Declaration standard (e.g., 2.1.1, 2.2, 2.3). |
+| **HPDVersion** | string | The version of the Health Product Declaration standard (e.g., 2.2, 2.3,3.0). |
 | **ID** | int | The unique ID assigned by the repository to track the record internally. |
 | **Title** | string | The display title of the HPD,  |
 | **UniqueId** | string | A unique text-based identifier found in the HPD

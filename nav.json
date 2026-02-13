@@ -26,7 +26,7 @@
         "link": "repository-api",
         "items": [
           {
-            "text": "Overview",
+            "text": "Structure",
             "link": "repository-api"
           }
         ]
@@ -50,6 +50,10 @@
       {
         "text": "Company",
         "link": "data/company"
+      },
+      {
+        "text": "Content",
+        "link": "content/"
       },
       {
         "text": "General",

@@ -7,6 +7,21 @@ category: Container
 
 [[toc]]
 
+## Introduction
+
+The Repository API is composed of two sets of data: Metadata and DataPDF: 
+Metadata contains the structured data fields corresponding to an HPD record in the HPD Public Repository such as the Repository ID, HPD URL and HPD versions
+
+DataPDF contains data corresponding to all fields within the Health Product Declaration. Data PDF is reported in two buckets: HPD Data Other Sections and HPD Data Content Inventory
+
+Repository API
+  -DataPDF 
+    -Content
+      -Conditions
+      -Substances
+      -Polymers
+
+
 ## Structure
 
 ```json
