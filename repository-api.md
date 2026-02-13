@@ -33,7 +33,7 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
     "ExpiryDate": "<date>",
     "HPDUrl": "<string>",
     "HPDVersion": "<string>",
-    "ID": "<string>",
+    "ID": "<int>",
     "Identified": "<string>",
     "InventoryType": "<string>",
     "LEEDv4": "<string>",
@@ -123,16 +123,14 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 - type: **`<object>`**
 - required: **`false`**
 - default: **`null`**
+- related: [DataPDF](#data-pdf)
 - Definition: **`The DataPDFv3 is the HPD data in a structured format.`**
-
-::: info
-This is a nested object, see the [DataPDF](#data-pdf) section for more information.
-:::
 
 ### HPDUrl
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The URL link to the HPD data file.`**
 
 ### HPDVersion
 
@@ -141,7 +139,7 @@ This is a nested object, see the [DataPDF](#data-pdf) section for more informati
 
 ### ID
 
-- type: **`<string>`**
+- type: **`<int>`**
 - required: **`false`**
 
 ### Identified
