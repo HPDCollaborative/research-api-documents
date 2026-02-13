@@ -13,9 +13,24 @@
       {
         "text": "Endpoints",
         "link": "endpoints"
+      },
+      {
+        "text": "FAQs",
+        "link": "faqs"
       }
+
     ]
   },
+  {
+      "text": "Repository API",
+        "link": "repository-api",
+        "items": [
+          {
+            "text": "Overview",
+            "link": "repository-api"
+          }
+        ]
+      },
   {
     "text": "DataPDF",
     "collapsible": true,
