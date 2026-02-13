@@ -10,17 +10,12 @@ category: Container
 ## Introduction
 
 The Repository API is composed of two sets of data: Metadata and DataPDF: 
-Metadata contains the structured data fields corresponding to an HPD record in the HPD Public Repository such as the Repository ID, HPD URL and HPD versions
 
-DataPDF contains data corresponding to all fields within the Health Product Declaration. Data PDF is reported in two buckets: HPD Data Other Sections and HPD Data Content Inventory
+Metadata contains the structured data fields corresponding to an HPD record in the HPD Public Repository such as the Repository ID, HPD URL, Expiry Date, among others. These fields are searchable and allow API users to create queries to find HPDs that meet their specific criteria.
 
-Repository API
-  -DataPDF 
-    -Content
-      -Conditions
-      -Substances
-      -Polymers
+DataPDF contains data corresponding to all fields within the Health Product Declaration. 
 
+Metadata structure can be found below. DataPDF structure can be found on the following section.
 
 ## Structure
 
@@ -71,49 +66,58 @@ Repository API
   }
 ]
 ```
+##Definitions
 
 ### CSIDivision
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: The CSI Division corresponds to the CSI Masterformat Division number selected by the manufacturer.  
 
 ### CSISection
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: The CSI Section corresponds to the CSI Masterformat Section number selected by the manufacturer.  
 
 ### CertificationsAndCompliance
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: Summary list of compliance documentation reported by the manufacturer on Section 3: Compliance. 
 
 ### Characterized
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: Indication of whether the manufacturer has reported weight and roles for all items in the content inventory. 
 
 ### Checksum
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: The checksum is a unique identifier for the HPD. It can be used to determine if the HPD has been modified since it was created. 
 
 ### ContentInDescendingOrderOfQuantity
 
 - type: **`<object>`**
 - required: **`false`**
 - default: **`null`**
+- Definition: Summary list of content inventory items reported by the manufacturer in Section 2: Content Inventory.
 
 ### CreatedDate
 
 - type: **`<date>`**
 - required: **`false`**
 - default: **`null`**
+- Definition: The date the HPD was first published.
 
 ### ExpiryDate
 
 - type: **`<date>`**
 - required: **`false`**
-- default: **`null`**
+- default: **`null`** 
+- Definition: The date the HPD expires.
 
 ### HPDUrl
 
