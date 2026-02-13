@@ -66,58 +66,68 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
   }
 ]
 ```
-##Definitions
-
+## Definitions
 ### CSIDivision
 
 - type: **`<string>`**
 - required: **`true`**
-- Definition: The CSI Division corresponds to the CSI Masterformat Division number selected by the manufacturer.  
+- Definition: **`The CSI Division corresponds to the CSI Masterformat Division number selected by the manufacturer.`**  
 
 ### CSISection
 
 - type: **`<string>`**
 - required: **`true`**
-- Definition: The CSI Section corresponds to the CSI Masterformat Section number selected by the manufacturer.  
+- Definition: **`The CSI Section corresponds to the CSI Masterformat Section number selected by the manufacturer.`**  
 
 ### CertificationsAndCompliance
 
 - type: **`<string>`**
 - required: **`false`**
-- Definition: Summary list of compliance documentation reported by the manufacturer on Section 3: Compliance. 
+- Definition: **`Summary list of compliance documentation reported by the manufacturer on Section 3: Compliance.`**
 
 ### Characterized
 
 - type: **`<string>`**
 - required: **`false`**
-- Definition: Indication of whether the manufacturer has reported weight and roles for all items in the content inventory. 
+- Definition: **`Indication of whether the manufacturer has reported weight and roles for all items in the content inventory.`** 
 
 ### Checksum
 
 - type: **`<string>`**
 - required: **`true`**
-- Definition: The checksum is a unique identifier for the HPD. It can be used to determine if the HPD has been modified since it was created. 
+- Definition: **`The checksum is a unique identifier for the HPD. It can be used to determine if the HPD has been modified since it was created.`** 
 
 ### ContentInDescendingOrderOfQuantity
 
 - type: **`<object>`**
 - required: **`false`**
 - default: **`null`**
-- Definition: Summary list of content inventory items reported by the manufacturer in Section 2: Content Inventory.
+- Definition: **`Summary list of content inventory items reported by the manufacturer in Section 2: Content Inventory.`**
 
 ### CreatedDate
 
 - type: **`<date>`**
 - required: **`false`**
 - default: **`null`**
-- Definition: The date the HPD was first published.
+- Definition: **`The date the HPD was first published.`**
 
 ### ExpiryDate
 
 - type: **`<date>`**
 - required: **`false`**
 - default: **`null`** 
-- Definition: The date the HPD expires.
+- Definition: **`The date the HPD expires.`**
+
+### DataPDFv3
+
+- type: **`<object>`**
+- required: **`false`**
+- default: **`null`**
+- Definition: **`The DataPDFv3 is the HPD data in a structured format.`**
+
+::: info
+This is a nested object, see the [DataPDF](#data-pdf) section for more information.
+:::
 
 ### HPDUrl
 

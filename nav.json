@@ -18,21 +18,20 @@
         "text": "FAQs",
         "link": "faqs"
       }
-
     ]
   },
   {
-      "text": "Repository API",
-        "link": "repository-api",
-        "items": [
-          {
-            "text": "Structure",
-            "link": "repository-api"
-          }
-        ]
-      },
+    "text": "Repository API",
+    "link": "repository-api",
+    "items": [
+      {
+        "text": "Structure",
+        "link": "repository-api"
+      }
+    ]
+  },
   {
-    "text": "DataPDF",
+    "text": "- DataPDF",
     "collapsible": true,
     "items": [
       {
@@ -94,7 +93,7 @@
     ]
   },
   {
-    "text": "Content Inventory",
+    "text": "-- Content Inventory",
     "collapsible": true,
     "items": [
       {
