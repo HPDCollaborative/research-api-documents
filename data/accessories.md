@@ -21,15 +21,6 @@ category: Container
 ]
 ```
 
-#### DIFF 2.2 > 2.3
-
-```diff
--   "Conditions": "<string>"
-+   "AccessoryType": "<string>"
-+   "Manufacturer": "<string>"
-+   "Notes": "<string>"
-```
-
 ---
 
 ### Name

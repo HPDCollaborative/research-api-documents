@@ -136,160 +136,182 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The version of the HPD Open Standard.`**
 
 ### ID
 
 - type: **`<int>`**
 - required: **`false`**
+- Definition: **`The unique identifier for the HPD on the repository, this ID is used to retrieve a single HPD record with the Get HPD by ID endpoint.`**
 
 ### Identified
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **` An HPD is marked as "Identified" when the name (specific or generic) and identifier are provided for every ingredient, supporting transparency in material health and building products.`**
 
 ### InventoryType
 
 - type: **`<string>`**
-- required: **`false`**
+- required: **`true`**
+- Definition: **`The type of how the contents are reported, nested or basic`**
 
 ### LEEDv4
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The LEEDv4 prechecks the HPD has`**
 
 ### ManufacturerAddress
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The address of the manufacturer.`**
 
 ### ManufacturerContactName
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The name of the contact person for the manufacturer.`**
 
 ### ManufacturerContactPhoneNumber
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The phone number of the contact person for the manufacturer.`**
 
 ### ManufacturerContactTitle
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The title of the contact person for the manufacturer.`**
 
 ### ManufacturerEmail
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The email address of the contact person for the manufacturer.`**
 
 ### ManufacturerName
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The name of the manufacturer.`**
 
 ### ManufacturerWebsite
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The website of the manufacturer.`**
 
 ### ModifiedDate
 
 - type: **`<date>`**
 - required: **`false`**
 - default: **`null`**
+- Definition: **`The date the HPD was last modified.`**
 
 ### Nanomaterial
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`Indication of whether the manufacturer has reported nanomaterials in the content inventory.`**
 
 ### NumberOfGreenScreenBMContents
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The number of Green Screen Benchmark contents in the content inventory.`**
 
 
 ### Preparer
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`If prepared by the manufacturer, "Self-Prepared" is inserted; if prepared by a third party, the name of the organization is inserted.`**
 
 ### ProductDescription
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`Brief description of the product`**
 
 ### ProductName
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`Product brand name`**
 
 ### PublishedDate
 
 - type: **`<date>`**
 - required: **`false`**
-- default: **`null`**
+- Definition: **`The date the HPD was published.`**
 
 ### ResidualsImpurities
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`Indication of whether the manufacturer has reported residuals and impurities in the content inventory.`**
 
 ### Screened
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`Indication of whether the manufacturer has reported screened contents in the content inventory.`**
 
 ### ScreeningDate
 
 - type: **`<date>`**
 - required: **`false`**
-- default: **`null`**
+- Definition: **`The date the HPD was screened.`**
 
 ### ThirdPartyVerified
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`Indication of whether the HPD has been third-party verified.`**
 
 ### ThresholdDisclosedPer
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`Indicates if the screening for hazards (e.g., in a product like a hand dryer or furniture) was conducted at the material or product level.`**
 
 ### ThresholdLevel
 
 - type: **`<string>`**
 - required: **`false`**
+- Definition: **`The threshold level at which the manufacturer has disclosed the contents of the HPD.`**
 
 ### Title
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: **`Title of the HPD used on the repository composed by Product Name / Manufacturer Name / Expiry Date.`**
 
 ### UniqueId
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: **`The unique identifier for the HPD on the repository.`**
 
 ### VOCContent
 
 - type: **`<object>`**
 - required: **`false`**
-- default: **`null`**
+- related: [VOC](/data/voc)
+- Definition: **`The VOC content of the HPD.`**
 
 ### Verifier
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: **`The verifier of the HPD.`**
 
 ### Version
 
 - type: **`<string>`**
 - required: **`true`**
 - default: **1.0**
-
-### Versions
-
-- type: **`<array>`**
-- required: **`false`**
-- default: **`[]`**
+- Definition: **`The version of the HPD, how many times the HPD has been published.`**

@@ -44,33 +44,37 @@ The base data object should return the following JSON structure.
 
 - type: **`<int>`**
 - required: **`true`**
+- Definition: **`The unique identifier for the HPD, same as the UniqueId.`**
 
 ### DigitalId
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: **`GUID of the HPD`**
 
 ### RecordId
 
 - type: **`<int>`**
 - required: **`true`**
+- Definition: **`Record ID used on the Builder`**
 
 ### Build
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: **`The version of the HPD Open Standard that the HPD was created with.`**
 
 ### Filename
 
 - type: **`<string>`**
 - required: **`true`**
+- Definition: **`The name of the HPD file.`**
 
 ### Accessories
 
 - type: **`<array>`**
 - required: **`false`**
 - related: [Accessories](./accessories)
-- default: **`null|string`**
 
 ### Certifications
 
