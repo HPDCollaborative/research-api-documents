@@ -33,35 +33,33 @@ If the `Success` field is true but `Data` is empty, it means no records matched 
 
 Below is a hierarchical map of the HPD structure starting from the Repository API.
 
-```
-[Repository API](./repository-api)
-└──VocContent
-└── DataPDFv3
-    ├── General
-    ├── Product
-    ├── Parts
-    ├── Certifications
-    ├── Accessories
-    ├── Notes
-    ├── PFASData
-    │   └── AttestationSignature
-    ├── Programs
-    └── Content 
-        ├── NestedMaterials
-            ├── Inventory
-            ├── Substances
-            │   ├── Hazards
-            │   └── Listings
-            └── Materials
-                ├── Biological
-                ├── Geological
-                ├── Mixed Content
-                ├── Electronics
-                ├── Fasteners
-                ├── Metal Alloys
-                │   └── GreenScreenAlloyingElements
-                └── Polymers
-                │   ├── With CASRN
-                │   ├── Without CASRN
-                │   └── Undisclosed
-```
+- [Repository API](./repository-api)
+  - [VocContent](./data/voc)
+  - [DataPDFv3](./data/)
+    - [General](./data/general)
+    - [Product](./data/product)
+    - [Parts](./data/parts)
+    - [Certifications](./data/certifications)
+    - [Accessories](./data/accessories)
+    - [Notes](./data/notes)
+    - [PFASData](./data/pfasdata)
+      - [AttestationSignature](./data/pfasdata/AttestationSignature)
+    - [Programs](./data/programs)
+    - [Content](./content/)
+      - [NestedMaterials](./content/nested-materials/)
+        - [Locations](./content/locations)
+        - [Substances](./content/substances/)
+          - [Hazards](./content/substances/hazards)
+          - [Listings](./content/substances/listings)
+        - [Materials](./content/materials/)
+          - [Biological](./content/materials/biological)
+          - [Geological](./content/materials/geological)
+          - [Mixed Content](./content/materials/mixed-content)
+          - [Electronics](./content/materials/electronics)
+          - [Fasteners](./content/materials/fasteners)
+          - [Metal Alloys](./content/materials/metal-alloys)
+            - [GreenScreenAlloyingElements](./content/materials/metal-alloys/GreenScreenAlloyingElements)
+          - [Polymers](./content/polymers/)
+            - [With CASRN](./content/polymers/with-casrn)
+            - [Without CASRN](./content/polymers/without-casrn)
+            - [Undisclosed](./content/polymers/undisclosed)
