@@ -31,3 +31,25 @@ It's important to note that internally the same data structure is used for both.
 ::: danger IMPORTANT
 Just to reiterate and be clear, both Nested and Basic inventories will return an array of Nested Materials as the top level element in Content. Basic (method) will always return a single Nested Material, where Nested (method) can return many.
 :::
+
+## Structure
+
+The Content section is a JSON object that represents the heart of an HPD. It contains the following properties:
+
+```json
+{
+    "Content": {
+        "NestedMaterials": [
+            {
+            "Inventory": "<array>",    
+            "Substances": "<array>",
+            "Materials": "<array>",
+            "Hazards": "<array>",
+            "Listings": "<array>",
+            "Polymers": "<array>",
+            "Locations": "<array>"
+            }
+        ]
+    }
+}
+```
