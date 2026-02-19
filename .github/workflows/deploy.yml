@@ -1,0 +1,12 @@
+name: Trigger Deployment
+on:
+  push:
+    branches:
+      - '[0-9]*.[0-9]*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Forge webhook
+        run: curl -X POST "${{ secrets.FORGE_WEBHOOK_URL }}"
