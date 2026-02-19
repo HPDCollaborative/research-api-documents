@@ -89,6 +89,7 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<string>`**
 - required: **`false`**
+- Values: **`Yes`**, **`Yes Ex/SC`**, **`No`**
 - Definition: **`Indication of whether the manufacturer has reported weight and roles for all items in the content inventory.`** 
 
 ### Checksum
@@ -101,28 +102,24 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<object>`**
 - required: **`false`**
-- default: **`null`**
 - Definition: **`Summary list of content inventory items reported by the manufacturer in Section 2: Content Inventory.`**
 
 ### CreatedDate
 
 - type: **`<date>`**
 - required: **`false`**
-- default: **`null`**
 - Definition: **`The date the HPD was first published.`**
 
 ### ExpiryDate
 
 - type: **`<date>`**
 - required: **`false`**
-- default: **`null`** 
-- Definition: **`The date the HPD expires.`**
+- Definition: **`The date the HPD expires. Normally 3 years from the published date.`**
 
 ### DataPDFv3
 
 - type: **`<object>`**
 - required: **`false`**
-- default: **`null`**
 - related: [DataPDF](#data-pdf)
 - Definition: **`The DataPDFv3 is the HPD data in a structured format.`**
 
@@ -148,12 +145,14 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<string>`**
 - required: **`false`**
+- Values: **`Yes`**, **`Yes Ex/SC`**, **`No`**
 - Definition: **` An HPD is marked as "Identified" when the name (specific or generic) and identifier are provided for every ingredient, supporting transparency in material health and building products.`**
 
 ### InventoryType
 
 - type: **`<string>`**
 - required: **`true`**
+- Values: **`nested`**, **`basic`**
 - Definition: **`The type of how the contents are reported, nested or basic`**
 
 ### LEEDv4
@@ -258,6 +257,7 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<string>`**
 - required: **`false`**
+- Values: **`Yes`**, **`Yes Ex/SC`**, **`No`**
 - Definition: **`Indication of whether the manufacturer has reported screened contents in the content inventory.`**
 
 ### ScreeningDate

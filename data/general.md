@@ -31,7 +31,7 @@ category: Container
 - type: **`<string>`**
 - required: **`false`**
 - default: **`null`**
-
+- Definition: **`The CSI Division number.`**
 ### CsiSection
 
 - type: **`<string>`**

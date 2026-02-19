@@ -53,7 +53,7 @@ outline: 'deep'
 
 - type: **`<array>`**
 - required: **`false`**
-- related: [GreenScreenAlloyingElements](../GreenScreenAlloyingElements/)
+- related: [GreenScreenAlloyingElements](./GreenScreenAlloyingElements)
 
 ### ListingNotes
 

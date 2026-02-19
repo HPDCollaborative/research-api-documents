@@ -32,7 +32,7 @@ category: Data
 - type: **`<object>`**
 - required: **`false`**
 - default: **`null|object`**
-- related: [Attestation Signature](../AttestationSignature/)
+- related: [Attestation Signature](./AttestationSignature)
 
 ### PfasStatus
 

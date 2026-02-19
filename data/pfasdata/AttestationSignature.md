@@ -37,6 +37,5 @@ Example: `https://hpdrepository.hpd-collaborative.org/repository/` + `SignatureP
 ### Type
 
 - type: **`<string>`**
-- required: **`false`**
-- default: **`null|string`**  
-- values: **`image`**, **`text`**
+- required: **`false`** 
+- Values: **`image`**, **`text`**

@@ -40,7 +40,6 @@ category: content
     "Listings": "<array>",
     "Locations": "<array>",
   }
-  ...
 ]
 ```
 

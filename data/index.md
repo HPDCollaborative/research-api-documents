@@ -27,6 +27,7 @@ The base data object should return the following JSON structure.
   "Parts": "<array>",
   "PfasData": "<object>",
   "Product": "<object>",
+  "Programs": "<object>",
   "Reference": "<object>",
   "UniqueProductId": "[<string>]",
   "Voc": "<object>",
@@ -39,6 +40,7 @@ The base data object should return the following JSON structure.
 ```diff
 +   "UniqueProductId": "[<string>]"
 +   "PfasData": "<object>"
++   "Programs": "<object>"
 ```
 ### NumericId
 
@@ -115,11 +117,24 @@ The data object represents the Summary section of the HPD.
 - related: [Parts](./parts)
 - default: **`null`**
 
+### PfasData
+
+- type: **`<object>`**
+- required: **`false`**
+- related: [PfasData](./pfasdata)
+- default: **`null`**
+
 ### Product
 
 - type: **`<object>`**
 - required: **`true`**
 - related: [Product](./product)
+
+### Programs
+
+- type: **`<object>`**
+- required: **`false`**
+- related: [Programs](./programs)
 
 ### Reference
 
