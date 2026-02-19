@@ -45,59 +45,59 @@ category: Programs
 
 #### Fail
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Pass
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Total
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Warn
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 
 ### Required
 
 #### Fail
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Pass
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Total
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Warn
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Redlists
 
 #### Fail
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Pass
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Total
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Warn
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Listings
 
 #### Fail
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Pass
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Total
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 #### Warn
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**

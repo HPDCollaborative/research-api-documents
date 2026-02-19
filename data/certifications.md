@@ -36,62 +36,62 @@ category: Container
 ### Type
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### OtherType
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Voc
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Party
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Issue
 
 - type: **`<date>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Expire
 
 - type: **`<date>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Lab
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Facilities
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Website
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Notes
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**

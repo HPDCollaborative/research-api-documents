@@ -34,34 +34,34 @@ outline: 'deep'
 ### IngredientDescription
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### TestingPerformed
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### TestingDescription
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### BatchVariation
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### VariationDescription
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### CountryOfOrigin
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### MissingInformation
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

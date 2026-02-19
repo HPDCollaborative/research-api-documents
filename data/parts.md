@@ -20,24 +20,24 @@ category: Container
 ### SupplierName
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Notes
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Min
 
 - type: **`<float>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Max
 
 - type: **`<float>`**
-- required: **`true`**
+- Nullable: **`false`**

@@ -27,31 +27,31 @@ category: Data
 ### Created
 
 - type: **`<date>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Id
 
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Organization
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Score
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 
 ### Updated
 - type: **`<date>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Version
 - type: **`<date>`**
-- required: **`true`**
+- Nullable: **`false`**

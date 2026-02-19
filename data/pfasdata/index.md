@@ -24,24 +24,24 @@ category: Data
 ### PfasMessage
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### AttestationSignature
 
 - type: **`<object>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|object`**
 - related: [Attestation Signature](./AttestationSignature)
 
 ### PfasStatus
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### AttestationDate
 
 - type: **`<date>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|date`**

@@ -27,9 +27,9 @@ outline: 'deep'
 ### Category
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### IngredientDescription
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

@@ -18,5 +18,5 @@ category: Container
 ### General
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**

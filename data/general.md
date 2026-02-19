@@ -23,35 +23,35 @@ category: Container
 ### Classification
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### CsiDivision
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 - Definition: **`The CSI Division number.`**
 ### CsiSection
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### Description
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### ThresholdType
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**
 
 ### InventoryNotes
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null`**

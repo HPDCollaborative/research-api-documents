@@ -30,24 +30,24 @@ outline: 'deep'
 ### IngredientDescription
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Compliance
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### ComplianceExemptions
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Takeback
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### OtherEolExplanation
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

@@ -26,19 +26,19 @@ category: Content
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### List
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Endpoint
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Abbreviation
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

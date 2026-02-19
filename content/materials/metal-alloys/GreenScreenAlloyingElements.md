@@ -33,13 +33,13 @@ category: Metal Alloys
 ### Name
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### Casrn
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**    
 
 ### Percentage
@@ -51,23 +51,23 @@ category: Metal Alloys
     "max_per_percentage": "<string>"
 }
 ```
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|object`**
 
 ### ElementRole
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### GreenScreenScore
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### Listings
 
 - type: **`<array>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|array`**

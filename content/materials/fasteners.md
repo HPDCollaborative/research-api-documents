@@ -30,34 +30,34 @@ outline: 'deep'
 ### ComponentComposition
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### EuRohsConformance
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### EuReachSvhcContent
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### EuRohsExemptions
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### SvhcDeclaration
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### LbcRedListCompliance
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### SpecialConditionThresholdDeclaration
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

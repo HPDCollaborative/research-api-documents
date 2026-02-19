@@ -22,24 +22,24 @@ category: Container
 ### VocContent
 
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Material
 
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Regulatory
 
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Exempt
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Ultra
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

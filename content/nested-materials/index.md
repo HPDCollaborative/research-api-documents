@@ -40,22 +40,22 @@ Nested Materials exist as an array of NestedMaterial objects listed with the key
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Min
 
 - type: **`<float>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Max
 
 - type: **`<float>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### AlternateOf
 
 - type: **`<object>`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [NestedMaterial](./#app)
 - default: **`null|string`**
 
@@ -66,51 +66,51 @@ Nested Materials exist as an array of NestedMaterial objects listed with the key
 ### NoReportableSubstances
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Threshold
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Residuals
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### ResidualNotes
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Notes
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### MaterialType
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Substances
 
 - type: **`array`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Substances](../substances/)
 - default: **`string`**
 
 ### Materials
 
 - type: **`array`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Materials](../materials/)
 - default: **`string`**
 
 ### Polymers
 
 - type: **`array`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Polymers](../polymers/)
 - default: **`string`**
 
@@ -121,6 +121,6 @@ Even though `Substances`, `Materials` and `Polymers` are marked as "not required
 ### Locations
 
 - type: **`array`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Locations](../locations)
 - default: **`string`**

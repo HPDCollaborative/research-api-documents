@@ -19,11 +19,11 @@ category: Container
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Types
 
 - type: **`array`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Product Types](./types)
 - default: **`string`**

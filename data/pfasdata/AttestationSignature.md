@@ -20,7 +20,7 @@ category: PFAS Data
 ### SignaturePath
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ::: tip
@@ -31,11 +31,11 @@ Example: `https://hpdrepository.hpd-collaborative.org/repository/` + `SignatureP
 ### SignatureText
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### Type
 
 - type: **`<string>`**
-- required: **`false`** 
+- Nullable: **`true`** 
 - Values: **`image`**, **`text`**

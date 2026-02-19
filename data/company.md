@@ -18,4 +18,4 @@ category: Container
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

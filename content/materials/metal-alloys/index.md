@@ -42,30 +42,30 @@ outline: 'deep'
 ### UnsOrEnIdentifier
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### MetalAlloyHpd
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### GreenScreenAlloyingElements
 
 - type: **`<array>`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [GreenScreenAlloyingElements](./GreenScreenAlloyingElements)
 
 ### ListingNotes
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### IsAssociated
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### IsPotableWater
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

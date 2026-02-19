@@ -40,7 +40,7 @@ Let's make up a data object example widget.
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ::: info
 Occasionally you'll see additional notes if something needs to be noted or explained. Otherwise this box will not appear at all.
@@ -49,7 +49,7 @@ Occasionally you'll see additional notes if something needs to be noted or expla
 ### Quantity
 
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ::: danger IMPORTANT
 Make sure you pay attention to `yellow` warning and `red` danger boxes for items that need special attention.
@@ -58,7 +58,7 @@ Make sure you pay attention to `yellow` warning and `red` danger boxes for items
 ### Amount
 
 - type: **`<float>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ::: warning
 Numerical props will come in either `<int>` or `<float>`, make sure you note this in your internal storage.
@@ -67,7 +67,7 @@ Numerical props will come in either `<int>` or `<float>`, make sure you note thi
 ### Status
 
 - type: **`<bool>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ::: info
 Also watch for special `Dev Notes` which will provide additional code and are displayed in an accordion style panel with a right arrow as below:
@@ -77,7 +77,7 @@ Also watch for special `Dev Notes` which will provide additional code and are di
 
 - type: **`<array>`**
 - related: [Options](#)
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`<null|string>`**
 
 ::: tip

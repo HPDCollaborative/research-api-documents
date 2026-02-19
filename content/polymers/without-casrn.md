@@ -48,47 +48,47 @@ category: content
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Identifier
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### GreenScreen
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### ScreeningEngine
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Min
 
 - type: **`<float>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Max
 
 - type: **`<float>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### Residual
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Recycle
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### AlternateOf
 
 - type: **`<object>`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Polymer](./)
 - default: **`null|string`**
 
@@ -99,62 +99,62 @@ category: content
 ### Nano
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Role
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### PolymerType
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### AverageMolecularWeight
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### PercentOfMolecularWeightLessThan500Da
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### AdditionalSubstancesConsidered
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### GHSHazardStatements
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### HazardScreeningCompliance
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### PolymerNotes
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### AdditionalNotes
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`string`**
 
 ### ScreenedAt
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Locations
 
 - type: **`array`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Locations](../locations)
 - default: **`string`**

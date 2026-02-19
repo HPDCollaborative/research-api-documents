@@ -41,52 +41,52 @@ category: Programs
 
 #### Characterized
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### InventoryType
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### MinimumThresholdAllowed
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### Screened
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### ThirdPartyVerified
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### ThresholdDisclosure
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 
 ### Required
 
 #### Characterized
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### InventoryType
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### MinimumThresholdAllowed
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### Screened
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### ThirdPartyVerified
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 #### ThresholdDisclosure
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### Screening
 
 #### Concerns
 - type: **`<array>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 
 #### Redlists
 - type: **`<array>`**
-- required: **`false`**
+- Nullable: **`true`**

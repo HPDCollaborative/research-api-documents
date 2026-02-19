@@ -34,42 +34,42 @@ category: Content
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### CasRn
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### GreenScreen
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Min
 
 - type: **`<int>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Max
 
 - type: **`<int>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### Residual
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Recycle
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### AlternateOf
 
 - type: **`<object>`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Substance](./#app)
 - default: **`null|string`**
 
@@ -80,34 +80,34 @@ Alternates for `Substances` is now a references to a `primary` instance of their
 ### Nano
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Role
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Notes
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`string`**
 
 ### ScreenedAt
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Hazards
 
 - type: **`<array>`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Hazards](./hazards)
 - default: **`string`**
 
 ### Listings
 
 - type: **`<array>`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Listings](./listings)
 - default: **`string`**

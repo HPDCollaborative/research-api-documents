@@ -29,14 +29,14 @@ Listings is a new data array that represents Additional Hazard Listings.
 ### Listing
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Agency
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Notification
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

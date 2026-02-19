@@ -26,25 +26,25 @@ category: Container
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Website
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### AccessoryType
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Manufacturer
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Notes
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`string`**

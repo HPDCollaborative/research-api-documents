@@ -54,17 +54,17 @@ outline: 'deep'
 ### UnsOrEnIdentifier
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### MetalAlloyHpd
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### GreenScreenAlloyingElements
 
 - type: **`<array>`**
-- required: **`false`**
+- Nullable: **`true`**
 ```json
 {
 	"GreenScreenAlloyingElements": [
@@ -88,4 +88,4 @@ outline: 'deep'
 ### ListingNotes
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

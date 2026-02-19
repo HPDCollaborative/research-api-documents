@@ -29,21 +29,21 @@ Locations are `implemented` as a Social Equity Indicator and apply to [Nested Ma
 ### Country
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Latitude
 
 - type: **`<decimal:10,7|string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`<null|string>`**
 
 ### Longitude
 
 - type: **`<decimal:10,7|string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`<null|string>`**
 
 ### Stage
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**

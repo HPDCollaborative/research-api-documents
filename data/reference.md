@@ -30,67 +30,67 @@ category: Container
 ### Address1
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Address2
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### City
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### State
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Postal
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Country
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Website
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Contact
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Title
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Phone
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Email
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### PreparedBy
 
 - type: **`<int>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**
 
 ### VerifiedBy
 
 - type: **`<int>`**
-- required: **`false`**
+- Nullable: **`true`**
 - default: **`null|string`**

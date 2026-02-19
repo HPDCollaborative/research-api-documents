@@ -36,12 +36,12 @@ Materials exist as an array of Material objects listed with the key of `Material
 ### Name
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Condition
 
 - type: **`<object>`**
-- required: **`true`**
+- Nullable: **`false`**
 - related: 1 of 6 Special Conditions
   - [Biological](./biological)
   - [Geological](./geological)
@@ -53,17 +53,17 @@ Materials exist as an array of Material objects listed with the key of `Material
 ### Min
 
 - type: **`<float>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Max
 
 - type: **`<float>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### AlternateOf
 
 - type: **`<object>`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Material](./#app)
 - default: **`null|string`**
 
@@ -74,26 +74,26 @@ Materials exist as an array of Material objects listed with the key of `Material
 ### Recycle
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Nano
 
 - type: **`<bool>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Role
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Notes
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### Locations
 
 - type: **`array`**
-- required: **`false`**
+- Nullable: **`true`**
 - related: [Locations](../locations)
 - default: **`string`**

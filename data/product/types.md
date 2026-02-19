@@ -23,19 +23,19 @@ category: Container
 ### Type
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### Definitions
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### Synonyms
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**
 
 ### Performance
 
 - type: **`<string>`**
-- required: **`false`**
+- Nullable: **`true`**

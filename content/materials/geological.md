@@ -32,29 +32,29 @@ outline: 'deep'
 ### Origin
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### IngredientComposition
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### PotentialPresenceOfToxicMaterials
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### ToxicMaterialDescription
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### PresenceOfRadioactiveElements
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
 
 ### RadioactiveElementDescription
 
 - type: **`<string>`**
-- required: **`true`**
+- Nullable: **`false`**
