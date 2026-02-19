@@ -59,7 +59,6 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
     "ThresholdLevel": "<string>",
     "Title": "<string>",
     "UniqueId": "<string>",
-    "VOCContent": "<object>",
     "Verifier": "<string>",
     "Version": "<string>",
     "Versions":"<array>"
@@ -296,12 +295,6 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 - Nullable: **`false`**
 - Definition: **`The unique identifier for the HPD on the repository.`**
 
-### VOCContent
-
-- type: **`<object>`**
-- Nullable: **`true`**
-- related: [VOC](/data/voc)
-- Definition: **`The VOC content of the HPD.`**
 
 ### Verifier
 
