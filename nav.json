@@ -27,7 +27,7 @@
     ]
   },
   {
-    "text": "DataPDF",
+    "text": "-DataPDF",
     "collapsible": true,
     "items": [
       {
@@ -81,7 +81,7 @@
     ]
   },
   {
-    "text": "Content Inventory",
+    "text": "--Content Inventory",
     "collapsible": true,
     "items": [
       {
@@ -133,7 +133,7 @@
         "link": "content/materials/metal-alloys"
       },
       {
-        "text": " - GS Alloying Elements",
+        "text": "-- GS Alloying Elements",
         "link": "content/materials/metal-alloys/GreenScreenAlloyingElements"
       },
       {
