@@ -34,7 +34,6 @@ If the `Success` field is true but `Data` is empty, it means no records matched 
 Below is a hierarchical map of the HPD structure starting from the Repository API.
 
 - [Repository API](./repository-api)
-  - [VocContent](./data/voc)
   - [DataPDFv3](./data/)
     - [General](./data/general)
     - [Product](./data/product)
