@@ -126,13 +126,13 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<string>`**
 - Nullable: **`true`**
-- Definition: **`The URL link to the HPD data file.`**
+- Definition: **`The URL link to HPD PDF file.`**
 
 ### HPDVersion
 
 - type: **`<string>`**
 - Nullable: **`true`**
-- Definition: **`The version of the HPD Open Standard.`**
+- Definition: **`The version of the HPD Open Standard followed to create the HPD`**
 
 ### ID
 
@@ -145,7 +145,7 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 - type: **`<string>`**
 - Nullable: **`true`**
 - Values: **`Yes`**, **`Yes Ex/SC`**, **`No`**
-- Definition: **` An HPD is marked as "Identified" when the name (specific or generic) and identifier are provided for every ingredient, supporting transparency in material health and building products.`**
+- Definition: **`An HPD is marked as "Identified" when the name and identifier (CAS or EC number) have been provided and disclosed for every ingredient.`**
 
 ### InventoryType
 
