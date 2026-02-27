@@ -158,7 +158,7 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<string>`**
 - Nullable: **`true`**
-- Definition: **`The LEEDv4 prechecks the HPD has`**
+- Definition: **`The LEED v4,v4.1 andv5 PreChecks the HPD has passed`**
 
 ### ManufacturerAddress
 
@@ -219,7 +219,7 @@ Metadata structure can be found below. DataPDF structure can be found on the fol
 
 - type: **`<string>`**
 - Nullable: **`true`**
-- Definition: **`The number of Green Screen Benchmark contents in the content inventory.`**
+- Definition: **`The number of contents with GreenScreen BM3 and BM4 in the content inventory.`**
 
 
 ### Preparer
